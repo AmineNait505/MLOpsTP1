@@ -1,0 +1,1001 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,InternetService,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+0001-CHURN,Male,1,No,Yes,18,Yes,No,Two year,No,Electronic check,77.55,1386.54,Yes
+0002-CHURN,Male,0,Yes,No,70,Yes,Fiber optic,Two year,Yes,Electronic check,94.38,6599.79,No
+0003-CHURN,Female,1,No,Yes,49,Yes,Fiber optic,Two year,Yes,Electronic check,91.47,4482.75,No
+0004-CHURN,Female,1,No,No,47,Yes,No,Month-to-month,Yes,Mailed check,95.81,4512.77,No
+0005-CHURN,Male,0,No,No,47,Yes,Fiber optic,Month-to-month,No,Electronic check,79.41,3725.69,No
+0006-CHURN,Male,0,No,No,72,Yes,Fiber optic,Month-to-month,Yes,Electronic check,99.0,7126.02,Yes
+0007-CHURN,Female,0,No,No,59,Yes,DSL,Month-to-month,No,Bank transfer,93.2,5497.37,No
+0008-CHURN,Female,0,Yes,No,12,Yes,DSL,Month-to-month,No,Credit card,78.14,935.38,No
+0009-CHURN,Female,0,Yes,No,15,Yes,No,One year,No,Bank transfer,29.66,443.6,No
+0010-CHURN,Female,0,Yes,No,14,Yes,Fiber optic,Two year,Yes,Mailed check,33.78,478.17,No
+0011-CHURN,Male,0,No,Yes,47,Yes,Fiber optic,Month-to-month,Yes,Electronic check,27.07,1272.01,Yes
+0012-CHURN,Male,1,No,No,22,Yes,No,One year,No,Mailed check,89.79,1973.36,No
+0013-CHURN,Female,0,No,Yes,29,Yes,DSL,Two year,Yes,Mailed check,19.22,561.54,Yes
+0014-CHURN,Male,0,No,Yes,31,Yes,Fiber optic,Month-to-month,Yes,Credit card,42.8,1326.26,Yes
+0015-CHURN,Male,1,No,No,53,Yes,No,Month-to-month,No,Electronic check,24.56,1306.24,No
+0016-CHURN,Male,0,Yes,No,18,Yes,Fiber optic,One year,Yes,Electronic check,62.81,1137.81,No
+0017-CHURN,Male,0,Yes,No,31,Yes,Fiber optic,One year,Yes,Credit card,108.74,3364.23,Yes
+0018-CHURN,Female,0,No,Yes,72,Yes,Fiber optic,Month-to-month,Yes,Mailed check,115.37,8308.22,No
+0019-CHURN,Female,1,No,No,68,Yes,No,Month-to-month,No,Electronic check,78.0,5307.5,Yes
+0020-CHURN,Male,0,Yes,No,6,Yes,Fiber optic,Two year,Yes,Bank transfer,111.97,665.91,No
+0021-CHURN,Male,0,Yes,No,39,Yes,DSL,Month-to-month,Yes,Electronic check,25.83,1001.63,No
+0022-CHURN,Female,0,Yes,No,21,Yes,No,Two year,Yes,Electronic check,85.29,1792.18,No
+0023-CHURN,Male,0,Yes,Yes,14,Yes,DSL,One year,Yes,Mailed check,90.26,1257.71,No
+0024-CHURN,Female,0,No,No,7,Yes,Fiber optic,One year,Yes,Bank transfer,95.61,672.01,Yes
+0025-CHURN,Female,0,No,No,15,Yes,No,Month-to-month,Yes,Bank transfer,76.75,1144.21,Yes
+0026-CHURN,Female,0,Yes,No,27,Yes,No,Month-to-month,Yes,Credit card,115.88,3133.75,No
+0027-CHURN,Male,0,Yes,No,4,Yes,Fiber optic,One year,No,Mailed check,45.18,186.47,Yes
+0028-CHURN,Male,0,Yes,Yes,59,Yes,DSL,Month-to-month,Yes,Mailed check,58.35,3438.22,Yes
+0029-CHURN,Female,0,No,No,69,Yes,DSL,Month-to-month,No,Bank transfer,36.36,2518.09,No
+0030-CHURN,Male,0,No,No,41,Yes,No,Month-to-month,Yes,Mailed check,43.97,1806.95,Yes
+0031-CHURN,Male,0,Yes,No,43,Yes,No,Month-to-month,No,Bank transfer,69.21,2979.37,No
+0032-CHURN,Female,0,Yes,No,49,Yes,DSL,Two year,Yes,Credit card,73.29,3581.22,No
+0033-CHURN,Female,0,No,No,57,Yes,No,One year,No,Mailed check,84.39,4805.91,No
+0034-CHURN,Female,1,Yes,No,29,Yes,DSL,Month-to-month,Yes,Credit card,79.63,2314.64,Yes
+0035-CHURN,Male,0,No,No,32,Yes,No,Month-to-month,No,Electronic check,96.34,3077.26,No
+0036-CHURN,Female,1,Yes,No,16,Yes,Fiber optic,Two year,Yes,Bank transfer,113.5,1823.83,No
+0037-CHURN,Female,0,No,No,61,Yes,DSL,Two year,Yes,Credit card,81.17,4946.86,No
+0038-CHURN,Female,0,No,No,70,Yes,DSL,Month-to-month,Yes,Mailed check,89.14,6231.08,No
+0039-CHURN,Female,0,Yes,No,50,No,No,Two year,Yes,Credit card,66.2,3318.85,No
+0040-CHURN,Female,0,No,No,70,Yes,DSL,One year,Yes,Credit card,67.06,4691.98,No
+0041-CHURN,Female,0,No,No,69,Yes,Fiber optic,Two year,Yes,Electronic check,26.89,1853.98,No
+0042-CHURN,Male,1,No,No,59,Yes,Fiber optic,One year,No,Credit card,43.73,2571.71,Yes
+0043-CHURN,Male,0,No,Yes,9,Yes,No,Month-to-month,No,Mailed check,38.44,336.37,Yes
+0044-CHURN,Male,0,Yes,No,28,Yes,Fiber optic,One year,Yes,Electronic check,96.28,2689.12,Yes
+0045-CHURN,Male,0,No,No,26,Yes,No,Two year,Yes,Bank transfer,103.53,2693.79,Yes
+0046-CHURN,Male,0,No,No,9,Yes,Fiber optic,Month-to-month,No,Credit card,29.05,270.67,Yes
+0047-CHURN,Female,0,No,Yes,67,No,Fiber optic,Two year,No,Credit card,64.99,4360.84,No
+0048-CHURN,Female,0,Yes,Yes,58,Yes,Fiber optic,Two year,No,Credit card,52.14,3024.01,No
+0049-CHURN,Female,0,No,No,36,Yes,No,Month-to-month,Yes,Credit card,67.36,2430.12,No
+0050-CHURN,Female,0,Yes,Yes,29,Yes,DSL,One year,No,Bank transfer,65.83,1909.69,No
+0051-CHURN,Female,0,No,Yes,33,Yes,No,Month-to-month,Yes,Mailed check,37.65,1247.22,Yes
+0052-CHURN,Female,0,Yes,Yes,47,Yes,DSL,Two year,Yes,Bank transfer,23.05,1074.44,No
+0053-CHURN,Male,0,No,Yes,2,Yes,Fiber optic,One year,Yes,Mailed check,115.05,225.15,No
+0054-CHURN,Male,0,No,No,7,Yes,No,One year,Yes,Mailed check,30.35,217.74,No
+0055-CHURN,Male,0,No,No,57,Yes,No,One year,Yes,Electronic check,79.46,4534.02,No
+0056-CHURN,Male,0,No,No,21,Yes,No,Month-to-month,Yes,Credit card,63.55,1336.43,Yes
+0057-CHURN,Male,0,No,No,59,Yes,DSL,One year,No,Mailed check,61.01,3600.48,No
+0058-CHURN,Female,0,Yes,Yes,40,Yes,No,One year,Yes,Credit card,87.37,3498.79,No
+0059-CHURN,Female,0,Yes,No,42,Yes,DSL,Month-to-month,Yes,Electronic check,118.46,4978.77,No
+0060-CHURN,Male,0,Yes,No,57,No,DSL,Two year,Yes,Credit card,115.41,6577.77,No
+0061-CHURN,Female,0,Yes,No,64,Yes,Fiber optic,Two year,Yes,Electronic check,49.95,3193.27,No
+0062-CHURN,Female,0,Yes,No,70,Yes,DSL,Month-to-month,Yes,Credit card,81.04,5678.0,Yes
+0063-CHURN,Male,0,No,No,63,Yes,No,Two year,No,Mailed check,49.58,3113.81,No
+0064-CHURN,Male,0,Yes,No,16,Yes,DSL,One year,No,Bank transfer,69.39,1105.71,No
+0065-CHURN,Female,0,Yes,No,66,Yes,DSL,Month-to-month,Yes,Credit card,52.49,3470.09,No
+0066-CHURN,Male,0,No,No,63,Yes,Fiber optic,Two year,Yes,Bank transfer,73.69,4643.34,No
+0067-CHURN,Female,0,Yes,No,30,Yes,Fiber optic,Month-to-month,Yes,Credit card,89.02,2676.83,Yes
+0068-CHURN,Male,0,Yes,Yes,43,Yes,Fiber optic,Month-to-month,Yes,Credit card,20.03,854.17,No
+0069-CHURN,Male,1,No,No,51,Yes,Fiber optic,Two year,No,Credit card,113.91,5811.95,No
+0070-CHURN,Female,0,Yes,No,31,Yes,Fiber optic,Month-to-month,No,Credit card,116.33,3611.44,Yes
+0071-CHURN,Male,0,No,No,6,Yes,DSL,One year,Yes,Credit card,33.06,198.98,No
+0072-CHURN,Male,0,Yes,No,49,Yes,DSL,One year,No,Mailed check,41.72,2047.04,No
+0073-CHURN,Male,0,No,No,70,Yes,Fiber optic,One year,No,Bank transfer,82.39,5765.79,No
+0074-CHURN,Female,0,No,No,14,Yes,No,One year,Yes,Bank transfer,20.69,296.26,No
+0075-CHURN,Male,0,Yes,No,64,Yes,Fiber optic,Month-to-month,No,Bank transfer,40.4,2579.4,Yes
+0076-CHURN,Male,0,Yes,No,57,Yes,Fiber optic,Two year,Yes,Bank transfer,51.17,2915.0,No
+0077-CHURN,Female,0,No,No,33,No,Fiber optic,One year,No,Bank transfer,98.92,3263.73,Yes
+0078-CHURN,Male,0,No,No,72,Yes,Fiber optic,Month-to-month,Yes,Electronic check,63.98,4610.02,No
+0079-CHURN,Female,0,No,Yes,30,Yes,No,Two year,Yes,Mailed check,83.27,2500.81,No
+0080-CHURN,Female,0,Yes,Yes,5,Yes,Fiber optic,Month-to-month,Yes,Mailed check,57.36,284.22,No
+0081-CHURN,Female,0,Yes,No,13,Yes,No,One year,No,Bank transfer,21.77,280.42,No
+0082-CHURN,Male,0,Yes,No,48,Yes,No,One year,Yes,Bank transfer,37.48,1791.48,No
+0083-CHURN,Female,1,Yes,No,3,Yes,Fiber optic,Month-to-month,No,Mailed check,25.36,81.38,Yes
+0084-CHURN,Male,0,Yes,No,19,Yes,No,Month-to-month,Yes,Mailed check,117.25,2228.55,No
+0085-CHURN,Male,0,Yes,Yes,46,Yes,DSL,Two year,Yes,Mailed check,45.04,2064.38,No
+0086-CHURN,Male,0,No,No,47,Yes,DSL,One year,Yes,Electronic check,91.22,4295.52,No
+0087-CHURN,Female,0,Yes,Yes,62,Yes,Fiber optic,Two year,Yes,Credit card,25.85,1594.32,No
+0088-CHURN,Male,1,No,No,68,Yes,No,Two year,Yes,Electronic check,103.78,7060.06,No
+0089-CHURN,Male,0,Yes,No,59,Yes,No,Month-to-month,Yes,Bank transfer,85.01,5013.08,Yes
+0090-CHURN,Female,1,Yes,Yes,13,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,85.5,1109.72,No
+0091-CHURN,Female,0,Yes,No,40,Yes,No,Two year,Yes,Credit card,40.92,1628.96,No
+0092-CHURN,Female,1,No,No,55,Yes,No,Two year,No,Electronic check,79.4,4370.16,No
+0093-CHURN,Male,0,No,No,45,Yes,DSL,Two year,No,Electronic check,32.69,1473.71,Yes
+0094-CHURN,Male,0,No,No,48,Yes,Fiber optic,Two year,Yes,Electronic check,34.06,1639.97,Yes
+0095-CHURN,Male,0,No,No,57,Yes,DSL,Two year,Yes,Credit card,29.59,1690.19,No
+0096-CHURN,Female,1,No,No,8,Yes,Fiber optic,Month-to-month,No,Bank transfer,47.44,371.92,Yes
+0097-CHURN,Female,0,No,No,30,Yes,No,One year,Yes,Electronic check,62.12,1862.8,Yes
+0098-CHURN,Female,0,No,No,54,Yes,Fiber optic,Month-to-month,No,Mailed check,98.63,5328.38,No
+0099-CHURN,Female,1,Yes,Yes,52,Yes,Fiber optic,One year,No,Mailed check,51.81,2687.48,No
+0100-CHURN,Male,0,Yes,No,45,Yes,No,Month-to-month,Yes,Mailed check,44.1,1977.97,Yes
+0101-CHURN,Male,0,No,No,58,Yes,No,Two year,No,Bank transfer,104.92,6087.9,No
+0102-CHURN,Male,0,No,No,8,Yes,DSL,One year,Yes,Electronic check,24.19,200.15,Yes
+0103-CHURN,Male,0,No,No,71,No,No,Month-to-month,Yes,Mailed check,50.65,3595.66,Yes
+0104-CHURN,Male,0,No,No,11,Yes,DSL,Month-to-month,Yes,Credit card,117.6,1294.08,No
+0105-CHURN,Female,0,No,No,44,Yes,DSL,Two year,No,Electronic check,51.47,2265.84,No
+0106-CHURN,Female,0,Yes,No,19,No,Fiber optic,Two year,No,Credit card,31.4,600.78,Yes
+0107-CHURN,Female,0,No,No,68,Yes,No,One year,Yes,Electronic check,54.76,3717.29,No
+0108-CHURN,Female,0,Yes,Yes,38,Yes,DSL,Two year,No,Electronic check,84.69,3225.75,No
+0109-CHURN,Female,1,Yes,No,22,Yes,DSL,One year,Yes,Mailed check,115.46,2542.33,No
+0110-CHURN,Female,0,Yes,No,61,No,DSL,One year,No,Credit card,64.67,3940.51,No
+0111-CHURN,Female,0,Yes,No,18,Yes,DSL,Two year,Yes,Bank transfer,73.95,1323.15,No
+0112-CHURN,Male,0,Yes,Yes,66,Yes,Fiber optic,Month-to-month,No,Mailed check,100.17,6618.91,No
+0113-CHURN,Female,1,No,Yes,11,Yes,DSL,One year,No,Bank transfer,97.64,1066.79,No
+0114-CHURN,Female,0,Yes,No,61,Yes,DSL,Month-to-month,Yes,Mailed check,102.0,6222.98,No
+0115-CHURN,Female,1,No,Yes,16,Yes,Fiber optic,Two year,No,Credit card,24.78,403.21,No
+0116-CHURN,Male,0,Yes,No,38,Yes,No,One year,Yes,Credit card,37.23,1418.1,No
+0117-CHURN,Female,1,Yes,No,61,Yes,Fiber optic,One year,Yes,Electronic check,54.21,3298.16,No
+0118-CHURN,Male,0,No,Yes,46,Yes,No,Month-to-month,No,Credit card,116.58,5362.25,Yes
+0119-CHURN,Male,1,No,Yes,26,Yes,DSL,Month-to-month,Yes,Bank transfer,70.04,1830.82,Yes
+0120-CHURN,Female,1,Yes,Yes,7,Yes,Fiber optic,One year,Yes,Bank transfer,62.2,433.4,No
+0121-CHURN,Female,0,Yes,No,64,Yes,No,One year,No,Credit card,26.39,1691.01,No
+0122-CHURN,Female,0,Yes,No,38,Yes,No,Two year,Yes,Credit card,53.65,2029.55,No
+0123-CHURN,Female,0,No,Yes,8,Yes,No,One year,Yes,Mailed check,113.78,903.1,No
+0124-CHURN,Female,1,Yes,Yes,47,Yes,No,Month-to-month,No,Credit card,113.38,5326.3,No
+0125-CHURN,Male,0,No,No,36,Yes,DSL,Month-to-month,No,Credit card,70.27,2537.99,Yes
+0126-CHURN,Female,0,Yes,No,37,Yes,Fiber optic,Month-to-month,Yes,Electronic check,63.7,2364.87,Yes
+0127-CHURN,Male,0,No,No,9,Yes,Fiber optic,One year,No,Mailed check,97.87,881.01,Yes
+0128-CHURN,Male,0,Yes,No,4,Yes,No,One year,Yes,Mailed check,79.69,310.48,No
+0129-CHURN,Female,0,No,No,10,Yes,Fiber optic,Two year,Yes,Credit card,86.51,861.99,No
+0130-CHURN,Male,0,Yes,No,8,Yes,No,Month-to-month,Yes,Mailed check,50.77,410.35,Yes
+0131-CHURN,Female,0,No,Yes,71,Yes,No,One year,No,Electronic check,68.76,4875.33,No
+0132-CHURN,Male,0,No,No,6,Yes,DSL,Month-to-month,Yes,Bank transfer,83.61,507.0,Yes
+0133-CHURN,Male,0,No,No,39,Yes,No,One year,Yes,Electronic check,87.36,3400.2,No
+0134-CHURN,Female,0,Yes,No,41,Yes,Fiber optic,One year,Yes,Bank transfer,70.0,2862.12,No
+0135-CHURN,Male,0,Yes,Yes,7,Yes,Fiber optic,Two year,Yes,Mailed check,99.85,707.63,No
+0136-CHURN,Male,0,No,No,60,Yes,Fiber optic,One year,Yes,Credit card,69.04,4151.73,No
+0137-CHURN,Female,1,No,No,61,Yes,DSL,Month-to-month,Yes,Bank transfer,91.25,5571.53,No
+0138-CHURN,Female,1,Yes,No,37,Yes,No,One year,No,Bank transfer,101.03,3740.57,No
+0139-CHURN,Male,0,No,No,44,Yes,Fiber optic,Month-to-month,Yes,Credit card,68.51,3005.35,Yes
+0140-CHURN,Female,0,No,Yes,66,Yes,No,One year,Yes,Bank transfer,77.87,5139.57,No
+0141-CHURN,Female,0,No,No,3,Yes,No,Month-to-month,No,Bank transfer,98.18,299.05,No
+0142-CHURN,Male,0,No,No,30,Yes,No,One year,Yes,Credit card,33.28,1002.01,Yes
+0143-CHURN,Male,0,No,No,20,Yes,DSL,One year,Yes,Credit card,105.78,2120.32,Yes
+0144-CHURN,Male,0,No,No,62,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,73.13,4537.58,No
+0145-CHURN,Female,0,Yes,No,36,Yes,DSL,One year,No,Mailed check,87.52,3150.5,No
+0146-CHURN,Female,0,No,No,51,Yes,DSL,One year,Yes,Electronic check,53.14,2708.99,No
+0147-CHURN,Female,0,No,No,35,Yes,No,Two year,Yes,Mailed check,23.58,833.4,No
+0148-CHURN,Male,1,No,No,61,Yes,DSL,Month-to-month,No,Mailed check,59.19,3619.29,No
+0149-CHURN,Female,0,No,No,8,No,DSL,Two year,Yes,Electronic check,109.82,872.06,No
+0150-CHURN,Male,0,Yes,No,51,Yes,DSL,Two year,No,Bank transfer,106.17,5404.86,No
+0151-CHURN,Male,0,No,Yes,70,Yes,DSL,Two year,Yes,Mailed check,99.38,6953.21,No
+0152-CHURN,Female,0,Yes,No,38,Yes,DSL,Month-to-month,No,Credit card,101.2,3845.91,Yes
+0153-CHURN,Male,0,Yes,No,32,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,113.9,3640.84,Yes
+0154-CHURN,Male,0,No,No,8,Yes,Fiber optic,One year,Yes,Bank transfer,87.53,703.01,No
+0155-CHURN,Female,0,Yes,No,62,Yes,No,Two year,Yes,Credit card,94.24,5848.92,No
+0156-CHURN,Male,0,Yes,No,68,Yes,DSL,Two year,Yes,Mailed check,75.77,5145.36,No
+0157-CHURN,Female,1,Yes,No,63,Yes,No,One year,No,Credit card,31.69,1994.78,No
+0158-CHURN,Female,0,No,No,51,Yes,DSL,Two year,Yes,Electronic check,23.03,1171.42,No
+0159-CHURN,Male,0,Yes,No,61,Yes,Fiber optic,Month-to-month,No,Credit card,55.95,3420.78,Yes
+0160-CHURN,Female,0,Yes,No,45,Yes,No,One year,Yes,Mailed check,101.98,4594.22,No
+0161-CHURN,Female,0,No,No,30,Yes,Fiber optic,Month-to-month,Yes,Electronic check,21.72,654.8,Yes
+0162-CHURN,Male,0,Yes,Yes,5,Yes,No,Two year,No,Mailed check,92.55,460.8,No
+0163-CHURN,Male,0,Yes,Yes,38,Yes,No,Two year,Yes,Bank transfer,42.19,1610.75,No
+0164-CHURN,Male,0,No,Yes,23,Yes,Fiber optic,Two year,Yes,Bank transfer,112.66,2594.61,No
+0165-CHURN,Female,0,No,Yes,49,Yes,No,One year,Yes,Mailed check,48.57,2384.08,No
+0166-CHURN,Male,0,No,No,18,Yes,Fiber optic,Month-to-month,Yes,Electronic check,110.72,1999.9,Yes
+0167-CHURN,Male,1,No,No,6,Yes,DSL,Two year,No,Mailed check,66.44,406.03,No
+0168-CHURN,Male,0,Yes,No,16,Yes,Fiber optic,Month-to-month,No,Mailed check,58.16,925.35,Yes
+0169-CHURN,Female,0,No,No,47,Yes,Fiber optic,One year,Yes,Credit card,94.66,4445.42,No
+0170-CHURN,Female,0,Yes,No,3,Yes,No,Two year,No,Bank transfer,33.74,97.82,No
+0171-CHURN,Male,0,No,Yes,63,No,No,Two year,Yes,Mailed check,91.78,5779.18,No
+0172-CHURN,Female,0,Yes,No,10,No,No,Month-to-month,No,Credit card,32.25,325.11,Yes
+0173-CHURN,Male,1,No,No,62,Yes,DSL,Month-to-month,Yes,Credit card,19.69,1221.37,No
+0174-CHURN,Female,1,No,No,23,Yes,DSL,Two year,Yes,Mailed check,80.48,1846.09,No
+0175-CHURN,Female,1,No,No,32,No,DSL,One year,No,Electronic check,83.87,2691.0,No
+0176-CHURN,Male,0,No,No,8,Yes,No,Month-to-month,Yes,Credit card,82.99,660.55,No
+0177-CHURN,Male,0,Yes,Yes,61,Yes,DSL,Two year,No,Electronic check,36.44,2229.85,Yes
+0178-CHURN,Male,0,No,No,39,Yes,DSL,Two year,No,Credit card,86.2,3362.61,No
+0179-CHURN,Male,0,Yes,No,45,Yes,Fiber optic,Month-to-month,No,Bank transfer,79.02,3558.18,No
+0180-CHURN,Female,1,No,No,58,Yes,Fiber optic,Two year,No,Credit card,37.07,2151.78,No
+0181-CHURN,Female,0,Yes,Yes,20,Yes,No,Month-to-month,No,Bank transfer,54.57,1083.23,No
+0182-CHURN,Female,0,No,Yes,12,Yes,Fiber optic,Two year,Yes,Credit card,28.83,337.75,No
+0183-CHURN,Female,0,Yes,Yes,50,Yes,No,Two year,No,Mailed check,75.7,3778.39,No
+0184-CHURN,Male,0,No,No,9,Yes,Fiber optic,One year,Yes,Electronic check,54.61,500.37,No
+0185-CHURN,Female,0,Yes,No,18,Yes,Fiber optic,One year,No,Credit card,98.91,1776.97,Yes
+0186-CHURN,Male,0,Yes,No,23,No,Fiber optic,One year,No,Credit card,115.28,2657.08,Yes
+0187-CHURN,Female,0,No,No,26,Yes,No,Month-to-month,No,Electronic check,113.8,2958.03,No
+0188-CHURN,Female,0,Yes,No,53,Yes,DSL,Two year,Yes,Bank transfer,84.37,4475.91,No
+0189-CHURN,Male,0,No,No,69,Yes,No,One year,Yes,Bank transfer,88.66,6123.79,No
+0190-CHURN,Male,1,Yes,No,46,Yes,No,Month-to-month,Yes,Credit card,115.18,5294.91,No
+0191-CHURN,Male,1,No,Yes,67,Yes,No,Two year,Yes,Bank transfer,57.61,3865.32,No
+0192-CHURN,Male,0,Yes,No,38,Yes,DSL,Month-to-month,No,Mailed check,53.33,2023.4,No
+0193-CHURN,Female,0,Yes,No,58,Yes,Fiber optic,Month-to-month,No,Electronic check,20.76,1200.94,Yes
+0194-CHURN,Male,0,Yes,No,71,Yes,No,One year,No,Mailed check,98.28,6980.48,No
+0195-CHURN,Female,0,Yes,No,55,Yes,No,Month-to-month,Yes,Electronic check,76.23,4198.64,No
+0196-CHURN,Female,0,No,Yes,63,Yes,No,One year,Yes,Credit card,77.2,4860.56,No
+0197-CHURN,Male,0,No,No,11,Yes,Fiber optic,Month-to-month,Yes,Electronic check,36.8,408.67,Yes
+0198-CHURN,Female,0,No,No,63,Yes,No,Two year,No,Mailed check,73.99,4661.16,No
+0199-CHURN,Female,0,Yes,No,2,Yes,DSL,One year,No,Credit card,59.41,118.65,No
+0200-CHURN,Female,0,Yes,No,29,Yes,Fiber optic,Month-to-month,Yes,Mailed check,96.57,2801.84,No
+0201-CHURN,Female,0,Yes,No,35,Yes,Fiber optic,Two year,No,Electronic check,94.5,3306.33,Yes
+0202-CHURN,Female,1,Yes,Yes,5,Yes,Fiber optic,Month-to-month,Yes,Electronic check,96.06,475.04,No
+0203-CHURN,Female,0,No,Yes,18,Yes,DSL,Month-to-month,Yes,Bank transfer,78.19,1400.79,No
+0204-CHURN,Female,0,No,No,66,No,No,Month-to-month,Yes,Credit card,110.38,7294.93,No
+0205-CHURN,Male,0,Yes,Yes,42,Yes,No,One year,Yes,Bank transfer,81.28,3411.26,No
+0206-CHURN,Male,0,No,No,48,Yes,Fiber optic,One year,Yes,Electronic check,91.59,4395.49,No
+0207-CHURN,Female,0,No,Yes,55,Yes,Fiber optic,One year,Yes,Bank transfer,52.28,2876.96,No
+0208-CHURN,Female,0,Yes,Yes,59,Yes,DSL,One year,Yes,Credit card,38.73,2288.84,No
+0209-CHURN,Female,1,No,Yes,47,Yes,Fiber optic,Two year,No,Mailed check,23.68,1115.47,No
+0210-CHURN,Male,0,Yes,No,1,Yes,DSL,Month-to-month,Yes,Credit card,19.43,23.34,No
+0211-CHURN,Female,0,No,Yes,50,Yes,DSL,Month-to-month,Yes,Bank transfer,32.21,1615.97,No
+0212-CHURN,Male,0,Yes,Yes,2,Yes,DSL,One year,Yes,Mailed check,81.31,155.65,No
+0213-CHURN,Female,0,Yes,No,18,Yes,No,Two year,Yes,Credit card,49.95,891.9,No
+0214-CHURN,Male,0,No,No,4,Yes,No,One year,Yes,Mailed check,93.28,369.03,Yes
+0215-CHURN,Male,0,Yes,Yes,10,Yes,DSL,One year,No,Mailed check,57.18,578.58,No
+0216-CHURN,Male,0,Yes,Yes,9,Yes,DSL,Month-to-month,No,Credit card,69.16,625.01,Yes
+0217-CHURN,Female,0,No,Yes,69,Yes,DSL,One year,Yes,Electronic check,69.63,4798.53,No
+0218-CHURN,Female,0,Yes,No,56,Yes,DSL,Month-to-month,Yes,Credit card,30.1,1687.85,Yes
+0219-CHURN,Male,1,Yes,No,21,Yes,Fiber optic,Two year,Yes,Bank transfer,35.2,731.74,No
+0220-CHURN,Female,0,Yes,No,4,Yes,Fiber optic,One year,Yes,Bank transfer,89.73,360.45,Yes
+0221-CHURN,Female,0,Yes,No,22,Yes,Fiber optic,Month-to-month,No,Electronic check,41.34,909.66,Yes
+0222-CHURN,Male,0,No,No,20,Yes,DSL,Two year,No,Credit card,40.95,813.97,No
+0223-CHURN,Female,0,Yes,No,16,Yes,DSL,Month-to-month,Yes,Electronic check,113.91,1813.94,Yes
+0224-CHURN,Female,0,No,No,71,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,92.46,6559.51,Yes
+0225-CHURN,Female,0,Yes,No,70,Yes,DSL,Month-to-month,Yes,Credit card,20.89,1463.13,No
+0226-CHURN,Male,0,Yes,No,49,Yes,No,One year,Yes,Mailed check,60.48,2972.74,No
+0227-CHURN,Male,0,Yes,Yes,30,Yes,No,One year,No,Bank transfer,64.35,1935.46,No
+0228-CHURN,Male,0,No,Yes,8,Yes,DSL,Month-to-month,Yes,Bank transfer,111.1,886.66,No
+0229-CHURN,Female,0,No,Yes,26,Yes,No,Month-to-month,Yes,Mailed check,63.46,1646.24,Yes
+0230-CHURN,Female,0,Yes,No,60,Yes,DSL,Month-to-month,Yes,Bank transfer,101.14,6072.34,Yes
+0231-CHURN,Female,1,Yes,No,51,Yes,No,One year,Yes,Mailed check,21.61,1100.2,No
+0232-CHURN,Male,1,Yes,No,18,Yes,DSL,Month-to-month,Yes,Credit card,55.72,1005.57,No
+0233-CHURN,Female,0,Yes,Yes,9,Yes,No,One year,No,Electronic check,109.01,987.68,No
+0234-CHURN,Male,0,Yes,Yes,56,Yes,Fiber optic,One year,Yes,Credit card,35.78,1997.97,No
+0235-CHURN,Female,0,Yes,Yes,32,Yes,Fiber optic,One year,No,Credit card,24.6,782.8,Yes
+0236-CHURN,Male,0,Yes,No,70,Yes,Fiber optic,Two year,Yes,Credit card,52.9,3704.31,No
+0237-CHURN,Female,0,No,No,4,Yes,Fiber optic,Month-to-month,No,Credit card,71.44,291.1,No
+0238-CHURN,Male,1,Yes,Yes,8,Yes,DSL,Two year,No,Credit card,53.98,438.62,No
+0239-CHURN,Male,0,No,No,46,No,DSL,Two year,No,Mailed check,74.81,3435.02,No
+0240-CHURN,Female,0,Yes,No,12,Yes,No,Month-to-month,Yes,Credit card,18.57,231.2,Yes
+0241-CHURN,Male,0,Yes,No,42,Yes,DSL,Two year,No,Mailed check,95.94,4036.41,No
+0242-CHURN,Male,0,No,No,44,Yes,DSL,Month-to-month,No,Credit card,97.68,4307.13,No
+0243-CHURN,Male,0,No,Yes,23,Yes,No,Two year,Yes,Mailed check,91.38,2110.72,No
+0244-CHURN,Female,0,Yes,Yes,41,No,No,Month-to-month,No,Electronic check,112.17,4591.78,No
+0245-CHURN,Male,0,No,Yes,12,Yes,No,Two year,No,Bank transfer,63.16,753.22,No
+0246-CHURN,Male,0,Yes,No,7,Yes,No,One year,No,Credit card,67.81,472.24,No
+0247-CHURN,Male,0,Yes,Yes,10,Yes,DSL,One year,Yes,Bank transfer,113.67,1128.18,Yes
+0248-CHURN,Female,0,Yes,No,12,Yes,No,One year,No,Credit card,112.74,1346.18,No
+0249-CHURN,Male,1,No,Yes,25,Yes,No,Two year,No,Bank transfer,84.56,2109.95,Yes
+0250-CHURN,Female,0,No,Yes,47,Yes,DSL,One year,No,Credit card,38.47,1798.6,No
+0251-CHURN,Female,0,No,No,40,Yes,Fiber optic,One year,No,Bank transfer,27.61,1105.28,No
+0252-CHURN,Female,0,No,Yes,57,Yes,DSL,One year,Yes,Mailed check,93.72,5345.39,No
+0253-CHURN,Female,0,No,No,30,Yes,Fiber optic,Two year,Yes,Credit card,75.77,2267.81,Yes
+0254-CHURN,Female,0,Yes,No,67,Yes,No,Two year,Yes,Credit card,35.79,2407.62,No
+0255-CHURN,Male,1,No,Yes,56,Yes,No,Month-to-month,No,Bank transfer,50.47,2830.86,No
+0256-CHURN,Male,0,No,No,36,Yes,DSL,Two year,No,Credit card,29.75,1063.99,No
+0257-CHURN,Male,0,Yes,No,69,Yes,Fiber optic,One year,Yes,Credit card,75.7,5222.76,No
+0258-CHURN,Female,1,No,Yes,43,Yes,DSL,Two year,Yes,Bank transfer,108.2,4643.0,No
+0259-CHURN,Female,0,No,No,13,No,DSL,Month-to-month,Yes,Credit card,95.9,1243.12,No
+0260-CHURN,Male,0,Yes,No,53,Yes,No,One year,No,Mailed check,25.06,1332.37,No
+0261-CHURN,Male,0,Yes,No,32,Yes,DSL,One year,No,Bank transfer,55.34,1770.16,No
+0262-CHURN,Male,0,Yes,No,58,Yes,Fiber optic,Two year,Yes,Bank transfer,34.85,2029.19,No
+0263-CHURN,Male,0,No,Yes,28,Yes,No,Month-to-month,No,Bank transfer,83.66,2342.75,No
+0264-CHURN,Male,0,Yes,No,2,Yes,No,One year,No,Bank transfer,60.88,119.29,No
+0265-CHURN,Female,0,No,No,51,Yes,DSL,Two year,No,Bank transfer,74.65,3809.03,No
+0266-CHURN,Male,0,No,No,42,Yes,Fiber optic,Two year,No,Bank transfer,37.34,1568.63,No
+0267-CHURN,Male,0,No,No,18,Yes,No,One year,No,Bank transfer,109.19,1963.51,No
+0268-CHURN,Male,0,Yes,No,61,No,No,One year,Yes,Mailed check,102.56,6263.69,No
+0269-CHURN,Male,0,No,No,72,Yes,DSL,Two year,No,Electronic check,40.73,2927.03,No
+0270-CHURN,Female,0,No,No,38,Yes,DSL,One year,Yes,Electronic check,65.72,2491.25,No
+0271-CHURN,Female,0,No,Yes,20,Yes,DSL,One year,Yes,Credit card,32.82,663.65,Yes
+0272-CHURN,Male,0,Yes,No,8,Yes,Fiber optic,Month-to-month,No,Mailed check,76.13,602.21,No
+0273-CHURN,Male,1,No,No,52,Yes,Fiber optic,One year,Yes,Mailed check,91.57,4770.64,No
+0274-CHURN,Male,1,Yes,No,32,Yes,Fiber optic,One year,Yes,Credit card,68.83,2198.68,Yes
+0275-CHURN,Male,0,No,No,67,Yes,Fiber optic,One year,No,Mailed check,52.77,3543.62,No
+0276-CHURN,Male,0,No,Yes,29,Yes,DSL,Month-to-month,No,Mailed check,30.82,898.0,No
+0277-CHURN,Female,0,No,No,7,Yes,DSL,Two year,Yes,Electronic check,23.32,155.56,No
+0278-CHURN,Male,0,No,No,27,Yes,No,Month-to-month,Yes,Electronic check,84.75,2283.65,No
+0279-CHURN,Male,0,Yes,No,16,Yes,DSL,One year,Yes,Mailed check,96.3,1547.43,No
+0280-CHURN,Female,0,No,Yes,71,Yes,DSL,Two year,No,Bank transfer,41.95,2968.7,No
+0281-CHURN,Male,0,No,Yes,12,Yes,DSL,Two year,No,Bank transfer,82.93,994.3,No
+0282-CHURN,Female,0,Yes,No,6,Yes,Fiber optic,Two year,Yes,Electronic check,28.0,173.16,Yes
+0283-CHURN,Male,0,Yes,No,57,No,Fiber optic,Two year,Yes,Bank transfer,36.79,2095.05,No
+0284-CHURN,Female,0,No,No,22,Yes,No,Two year,Yes,Mailed check,28.87,643.36,No
+0285-CHURN,Female,0,No,No,4,Yes,No,Month-to-month,Yes,Credit card,29.79,117.39,Yes
+0286-CHURN,Female,0,Yes,No,68,Yes,No,Two year,Yes,Bank transfer,70.41,4791.64,No
+0287-CHURN,Female,0,Yes,No,50,Yes,No,Two year,Yes,Mailed check,69.06,3452.39,No
+0288-CHURN,Male,1,No,No,43,No,DSL,Two year,Yes,Credit card,58.83,2524.39,No
+0289-CHURN,Female,1,No,No,16,No,No,Two year,Yes,Credit card,59.73,956.82,Yes
+0290-CHURN,Male,0,No,No,72,Yes,No,One year,No,Bank transfer,101.03,7280.49,No
+0291-CHURN,Female,0,No,No,47,Yes,DSL,Month-to-month,No,Mailed check,18.72,876.94,No
+0292-CHURN,Female,0,No,No,6,Yes,Fiber optic,Month-to-month,No,Credit card,29.2,177.42,Yes
+0293-CHURN,Female,0,Yes,No,14,Yes,DSL,Two year,No,Electronic check,95.71,1338.95,No
+0294-CHURN,Male,0,Yes,No,7,Yes,Fiber optic,Two year,Yes,Mailed check,87.68,607.23,No
+0295-CHURN,Male,0,No,No,50,Yes,No,Two year,No,Bank transfer,58.29,2911.36,No
+0296-CHURN,Male,1,No,No,71,Yes,No,Two year,No,Mailed check,38.59,2742.37,No
+0297-CHURN,Female,0,Yes,No,23,Yes,No,Two year,Yes,Electronic check,94.58,2176.59,No
+0298-CHURN,Female,0,No,No,55,Yes,No,Month-to-month,Yes,Mailed check,23.81,1300.68,No
+0299-CHURN,Male,0,No,Yes,8,Yes,Fiber optic,Month-to-month,No,Electronic check,54.37,434.01,Yes
+0300-CHURN,Male,0,No,Yes,37,Yes,DSL,One year,Yes,Bank transfer,115.08,4249.04,No
+0301-CHURN,Male,0,No,No,48,Yes,No,Two year,No,Mailed check,47.92,2293.71,No
+0302-CHURN,Male,0,Yes,No,55,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,19.06,1047.63,No
+0303-CHURN,Male,1,No,No,39,Yes,No,Two year,Yes,Bank transfer,71.04,2779.7,No
+0304-CHURN,Male,0,No,Yes,29,Yes,No,One year,Yes,Bank transfer,40.34,1174.91,No
+0305-CHURN,Male,1,No,No,32,No,No,One year,Yes,Electronic check,57.09,1827.68,No
+0306-CHURN,Female,0,No,No,38,Yes,DSL,One year,Yes,Electronic check,35.24,1348.25,No
+0307-CHURN,Male,0,Yes,No,28,Yes,Fiber optic,Month-to-month,Yes,Credit card,83.16,2337.28,Yes
+0308-CHURN,Male,1,No,Yes,10,Yes,Fiber optic,Two year,Yes,Mailed check,109.6,1094.15,No
+0309-CHURN,Female,0,Yes,No,16,Yes,No,Two year,No,Electronic check,88.59,1408.89,No
+0310-CHURN,Male,0,No,No,37,Yes,Fiber optic,One year,Yes,Electronic check,65.9,2438.97,No
+0311-CHURN,Female,0,No,No,19,Yes,No,Two year,Yes,Electronic check,73.85,1404.25,Yes
+0312-CHURN,Male,0,No,No,11,Yes,No,Two year,No,Bank transfer,39.67,444.48,No
+0313-CHURN,Male,0,Yes,No,33,Yes,DSL,Two year,No,Electronic check,103.64,3428.77,No
+0314-CHURN,Female,0,Yes,Yes,9,Yes,DSL,Two year,Yes,Bank transfer,54.21,491.32,No
+0315-CHURN,Female,0,Yes,No,58,Yes,No,One year,No,Mailed check,75.06,4350.77,No
+0316-CHURN,Female,0,No,Yes,29,Yes,No,One year,Yes,Bank transfer,31.93,930.63,No
+0317-CHURN,Female,0,No,No,14,Yes,No,Month-to-month,No,Mailed check,107.63,1500.75,No
+0318-CHURN,Male,0,Yes,No,4,Yes,No,One year,No,Mailed check,109.13,437.55,No
+0319-CHURN,Female,0,Yes,No,29,Yes,No,Two year,No,Mailed check,64.97,1884.34,No
+0320-CHURN,Male,0,Yes,No,18,Yes,DSL,Two year,No,Mailed check,92.09,1657.29,No
+0321-CHURN,Male,0,Yes,Yes,48,Yes,No,Month-to-month,Yes,Bank transfer,57.31,2759.24,No
+0322-CHURN,Male,0,No,Yes,67,Yes,Fiber optic,Two year,Yes,Mailed check,56.17,3760.96,No
+0323-CHURN,Male,0,No,No,29,Yes,Fiber optic,One year,Yes,Credit card,107.22,3099.51,No
+0324-CHURN,Female,0,Yes,No,36,Yes,DSL,Month-to-month,Yes,Electronic check,84.61,3044.25,Yes
+0325-CHURN,Male,0,No,No,21,Yes,Fiber optic,Month-to-month,Yes,Mailed check,75.85,1586.07,Yes
+0326-CHURN,Male,0,Yes,Yes,34,No,No,One year,Yes,Electronic check,106.35,3620.46,No
+0327-CHURN,Male,0,No,No,22,Yes,Fiber optic,Two year,Yes,Mailed check,80.82,1778.26,Yes
+0328-CHURN,Female,0,Yes,Yes,50,Yes,DSL,Month-to-month,Yes,Credit card,101.15,5059.61,Yes
+0329-CHURN,Male,0,Yes,Yes,17,No,No,Month-to-month,No,Credit card,70.7,1199.31,Yes
+0330-CHURN,Female,0,No,No,49,Yes,No,Two year,Yes,Credit card,31.89,1562.15,No
+0331-CHURN,Male,0,No,Yes,1,Yes,DSL,Two year,Yes,Electronic check,56.0,56.0,No
+0332-CHURN,Female,0,Yes,No,33,Yes,No,One year,Yes,Bank transfer,117.68,3881.39,No
+0333-CHURN,Female,0,No,Yes,40,Yes,No,One year,No,Electronic check,93.28,3730.13,No
+0334-CHURN,Male,1,No,No,71,Yes,No,Two year,Yes,Credit card,114.96,8152.27,No
+0335-CHURN,Male,0,No,Yes,34,Yes,DSL,Two year,Yes,Credit card,111.57,3791.39,No
+0336-CHURN,Female,0,Yes,No,23,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,37.97,878.99,Yes
+0337-CHURN,Male,0,Yes,No,1,No,DSL,One year,No,Bank transfer,85.47,85.47,No
+0338-CHURN,Male,0,Yes,No,71,Yes,No,Two year,Yes,Bank transfer,41.13,2929.49,No
+0339-CHURN,Female,0,No,Yes,65,Yes,DSL,Two year,Yes,Electronic check,98.79,6430.48,No
+0340-CHURN,Female,0,No,No,32,Yes,Fiber optic,Two year,Yes,Electronic check,66.7,2129.56,Yes
+0341-CHURN,Male,0,Yes,No,53,No,No,Two year,Yes,Bank transfer,43.33,2288.35,No
+0342-CHURN,Female,1,Yes,No,46,Yes,No,One year,Yes,Mailed check,68.4,3140.39,No
+0343-CHURN,Female,0,Yes,No,46,Yes,DSL,Month-to-month,No,Credit card,79.88,3679.76,No
+0344-CHURN,Male,0,No,No,64,Yes,No,One year,Yes,Bank transfer,58.29,3735.56,No
+0345-CHURN,Female,0,Yes,No,51,Yes,DSL,One year,No,Credit card,50.07,2543.74,No
+0346-CHURN,Female,0,No,No,34,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,55.09,1873.04,Yes
+0347-CHURN,Female,0,No,Yes,24,Yes,No,Two year,Yes,Electronic check,90.58,2180.0,No
+0348-CHURN,Female,0,Yes,No,2,Yes,Fiber optic,Month-to-month,No,Bank transfer,97.03,190.06,Yes
+0349-CHURN,Male,0,Yes,Yes,33,Yes,No,Month-to-month,Yes,Bank transfer,44.48,1465.05,No
+0350-CHURN,Female,0,No,Yes,26,Yes,No,Two year,Yes,Bank transfer,54.01,1407.72,No
+0351-CHURN,Female,0,No,No,60,Yes,DSL,Month-to-month,No,Bank transfer,60.68,3643.05,No
+0352-CHURN,Male,1,No,Yes,41,Yes,No,One year,No,Credit card,45.62,1869.32,No
+0353-CHURN,Female,0,No,No,24,Yes,DSL,Two year,Yes,Bank transfer,112.54,2704.97,Yes
+0354-CHURN,Male,0,Yes,Yes,61,Yes,DSL,One year,Yes,Electronic check,28.89,1764.65,No
+0355-CHURN,Female,0,Yes,No,57,Yes,DSL,Two year,No,Electronic check,22.02,1252.28,No
+0356-CHURN,Female,0,No,No,18,No,No,Two year,Yes,Credit card,81.6,1471.52,No
+0357-CHURN,Female,0,No,No,12,Yes,Fiber optic,One year,Yes,Bank transfer,19.56,235.19,No
+0358-CHURN,Male,0,No,No,63,No,Fiber optic,One year,Yes,Credit card,98.3,6194.84,No
+0359-CHURN,Female,0,No,No,21,Yes,No,One year,No,Mailed check,44.8,939.24,No
+0360-CHURN,Female,0,No,No,9,Yes,Fiber optic,Month-to-month,No,Credit card,45.71,413.85,Yes
+0361-CHURN,Male,1,Yes,Yes,14,Yes,DSL,Two year,Yes,Electronic check,41.78,577.93,No
+0362-CHURN,Female,0,No,No,60,Yes,DSL,One year,Yes,Mailed check,24.1,1451.51,No
+0363-CHURN,Female,0,No,No,2,Yes,No,Month-to-month,Yes,Credit card,43.22,96.33,Yes
+0364-CHURN,Male,0,Yes,No,40,No,DSL,Two year,No,Electronic check,43.83,1755.97,No
+0365-CHURN,Male,0,Yes,No,31,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,76.97,2383.99,Yes
+0366-CHURN,Male,0,No,No,20,Yes,DSL,Month-to-month,Yes,Electronic check,87.09,1738.57,No
+0367-CHURN,Male,1,Yes,No,14,Yes,DSL,One year,No,Bank transfer,99.05,1385.47,Yes
+0368-CHURN,Female,0,Yes,Yes,6,Yes,Fiber optic,Two year,Yes,Credit card,37.48,218.61,Yes
+0369-CHURN,Female,0,Yes,Yes,20,Yes,Fiber optic,Two year,Yes,Electronic check,96.09,1921.92,No
+0370-CHURN,Male,0,No,No,31,Yes,DSL,Two year,No,Credit card,37.49,1165.85,No
+0371-CHURN,Male,0,No,No,42,Yes,No,Two year,Yes,Mailed check,36.36,1517.75,No
+0372-CHURN,Male,1,No,No,68,Yes,No,One year,Yes,Mailed check,79.1,5370.22,No
+0373-CHURN,Male,0,Yes,No,8,Yes,No,One year,No,Electronic check,100.86,802.2,Yes
+0374-CHURN,Male,0,Yes,No,67,Yes,No,Month-to-month,Yes,Mailed check,37.81,2536.41,No
+0375-CHURN,Male,0,No,No,46,Yes,No,Two year,Yes,Electronic check,35.18,1611.89,No
+0376-CHURN,Female,0,No,No,41,Yes,Fiber optic,One year,Yes,Credit card,101.12,4142.39,No
+0377-CHURN,Male,0,No,No,58,Yes,Fiber optic,Month-to-month,No,Bank transfer,78.08,4528.99,No
+0378-CHURN,Female,1,Yes,Yes,41,Yes,No,One year,No,Mailed check,27.93,1144.34,No
+0379-CHURN,Female,0,Yes,Yes,39,Yes,Fiber optic,Two year,No,Electronic check,90.86,3549.4,No
+0380-CHURN,Male,0,No,Yes,49,Yes,DSL,One year,Yes,Credit card,60.15,2954.71,No
+0381-CHURN,Male,0,Yes,No,49,Yes,No,Month-to-month,Yes,Mailed check,51.18,2511.78,Yes
+0382-CHURN,Female,0,Yes,Yes,38,Yes,DSL,Month-to-month,Yes,Credit card,75.64,2865.31,No
+0383-CHURN,Male,0,No,No,17,Yes,Fiber optic,Two year,Yes,Credit card,83.72,1417.16,No
+0384-CHURN,Male,0,No,No,42,Yes,No,Month-to-month,Yes,Credit card,60.85,2552.67,No
+0385-CHURN,Male,0,Yes,No,57,Yes,Fiber optic,Month-to-month,No,Mailed check,38.47,2190.27,No
+0386-CHURN,Male,1,Yes,Yes,19,Yes,Fiber optic,Month-to-month,Yes,Electronic check,49.01,930.61,Yes
+0387-CHURN,Male,0,No,No,19,Yes,No,Month-to-month,Yes,Electronic check,44.05,828.15,Yes
+0388-CHURN,Female,1,Yes,Yes,35,Yes,No,One year,No,Electronic check,47.75,1678.92,No
+0389-CHURN,Female,0,Yes,No,63,Yes,No,Month-to-month,Yes,Credit card,74.57,4702.16,Yes
+0390-CHURN,Female,0,No,No,3,Yes,Fiber optic,One year,No,Mailed check,118.1,363.87,Yes
+0391-CHURN,Male,0,No,No,4,No,Fiber optic,Month-to-month,Yes,Credit card,84.19,328.52,Yes
+0392-CHURN,Male,0,Yes,No,40,No,Fiber optic,One year,Yes,Mailed check,83.75,3351.62,No
+0393-CHURN,Male,0,No,No,68,No,Fiber optic,Month-to-month,No,Mailed check,50.25,3418.15,No
+0394-CHURN,Male,0,Yes,No,41,Yes,Fiber optic,One year,Yes,Bank transfer,33.7,1375.46,No
+0395-CHURN,Male,0,No,No,30,Yes,DSL,Two year,Yes,Electronic check,87.31,2618.83,No
+0396-CHURN,Female,0,No,Yes,50,Yes,DSL,Month-to-month,Yes,Electronic check,59.36,2977.38,No
+0397-CHURN,Female,0,Yes,No,9,Yes,Fiber optic,Two year,Yes,Bank transfer,105.18,954.37,No
+0398-CHURN,Male,0,No,No,51,Yes,No,Two year,Yes,Electronic check,70.56,3597.59,No
+0399-CHURN,Male,0,Yes,No,51,No,DSL,Two year,Yes,Electronic check,37.49,1910.78,No
+0400-CHURN,Female,0,No,Yes,7,Yes,DSL,One year,No,Credit card,27.54,192.79,Yes
+0401-CHURN,Male,0,No,No,23,Yes,No,Month-to-month,No,Electronic check,43.51,1004.56,No
+0402-CHURN,Male,0,Yes,Yes,58,Yes,DSL,Two year,No,Mailed check,56.37,3267.07,No
+0403-CHURN,Female,0,Yes,Yes,19,Yes,No,Month-to-month,Yes,Bank transfer,91.52,1748.1,Yes
+0404-CHURN,Male,1,Yes,No,1,Yes,Fiber optic,Month-to-month,Yes,Credit card,72.85,72.85,No
+0405-CHURN,Male,0,No,No,57,Yes,No,Month-to-month,Yes,Bank transfer,80.48,4588.51,No
+0406-CHURN,Male,0,Yes,No,5,Yes,DSL,Two year,Yes,Bank transfer,51.61,249.8,Yes
+0407-CHURN,Male,0,No,No,72,Yes,Fiber optic,Two year,Yes,Electronic check,27.81,1998.31,No
+0408-CHURN,Female,0,No,No,9,Yes,DSL,Month-to-month,No,Bank transfer,51.42,461.06,Yes
+0409-CHURN,Male,0,Yes,No,68,No,Fiber optic,Two year,No,Bank transfer,61.21,4169.24,No
+0410-CHURN,Female,0,No,No,64,Yes,DSL,Two year,Yes,Bank transfer,116.43,7441.55,Yes
+0411-CHURN,Male,0,Yes,No,54,Yes,Fiber optic,One year,Yes,Mailed check,19.63,1054.04,No
+0412-CHURN,Male,0,No,No,15,Yes,Fiber optic,One year,No,Electronic check,101.7,1519.38,No
+0413-CHURN,Female,0,Yes,No,62,Yes,Fiber optic,Two year,No,Credit card,96.9,6006.08,No
+0414-CHURN,Female,0,No,No,3,Yes,No,One year,No,Bank transfer,25.12,68.35,No
+0415-CHURN,Female,0,Yes,No,50,Yes,DSL,One year,No,Bank transfer,89.48,4469.43,No
+0416-CHURN,Male,0,No,Yes,39,Yes,Fiber optic,Month-to-month,No,Electronic check,62.88,2442.82,No
+0417-CHURN,Male,0,No,No,68,Yes,Fiber optic,Month-to-month,No,Electronic check,100.71,6857.04,No
+0418-CHURN,Male,0,Yes,No,67,Yes,Fiber optic,Month-to-month,No,Electronic check,51.83,3480.39,Yes
+0419-CHURN,Female,1,No,No,27,Yes,DSL,One year,Yes,Bank transfer,95.78,2589.48,No
+0420-CHURN,Male,0,Yes,No,72,Yes,DSL,Two year,Yes,Bank transfer,45.61,3292.79,No
+0421-CHURN,Male,0,No,No,44,Yes,DSL,Month-to-month,Yes,Electronic check,29.09,1271.04,No
+0422-CHURN,Male,0,No,No,40,Yes,DSL,Two year,No,Electronic check,115.87,4639.91,No
+0423-CHURN,Male,1,No,Yes,40,Yes,No,One year,Yes,Mailed check,32.87,1322.71,No
+0424-CHURN,Female,0,No,No,42,Yes,DSL,Month-to-month,Yes,Bank transfer,66.37,2794.46,No
+0425-CHURN,Female,0,Yes,No,52,Yes,DSL,One year,Yes,Electronic check,97.74,5083.13,No
+0426-CHURN,Female,0,Yes,No,62,Yes,Fiber optic,Month-to-month,No,Credit card,96.93,6008.37,No
+0427-CHURN,Male,0,Yes,No,63,Yes,No,One year,Yes,Electronic check,100.7,6337.62,No
+0428-CHURN,Male,0,No,No,8,Yes,DSL,Two year,No,Electronic check,94.21,756.9,No
+0429-CHURN,Female,0,No,Yes,41,Yes,No,One year,No,Credit card,90.28,3709.78,No
+0430-CHURN,Male,0,No,No,38,Yes,No,Month-to-month,Yes,Bank transfer,29.47,1115.5,Yes
+0431-CHURN,Female,0,No,No,49,Yes,Fiber optic,Two year,Yes,Mailed check,65.99,3227.27,No
+0432-CHURN,Female,0,Yes,Yes,17,Yes,DSL,Two year,Yes,Credit card,84.29,1442.43,Yes
+0433-CHURN,Male,0,No,No,55,Yes,Fiber optic,Two year,Yes,Credit card,56.97,3127.86,No
+0434-CHURN,Male,0,Yes,No,35,Yes,No,Two year,Yes,Electronic check,75.31,2639.95,Yes
+0435-CHURN,Female,0,Yes,Yes,68,No,Fiber optic,One year,Yes,Electronic check,43.02,2927.97,No
+0436-CHURN,Male,0,No,No,44,Yes,DSL,One year,Yes,Credit card,75.9,3336.23,No
+0437-CHURN,Female,0,Yes,No,39,Yes,No,One year,Yes,Credit card,76.31,2977.55,No
+0438-CHURN,Female,0,Yes,Yes,11,Yes,DSL,One year,Yes,Bank transfer,46.02,501.36,No
+0439-CHURN,Male,0,Yes,No,48,Yes,Fiber optic,Two year,Yes,Mailed check,98.44,4732.36,No
+0440-CHURN,Male,0,Yes,No,53,Yes,DSL,Two year,Yes,Mailed check,39.59,2102.96,No
+0441-CHURN,Female,0,Yes,Yes,60,Yes,Fiber optic,One year,No,Mailed check,56.48,3392.91,No
+0442-CHURN,Male,0,No,Yes,58,Yes,Fiber optic,Two year,No,Electronic check,28.24,1638.55,No
+0443-CHURN,Female,0,No,No,35,Yes,Fiber optic,Two year,Yes,Credit card,95.82,3358.68,No
+0444-CHURN,Male,0,Yes,No,2,Yes,DSL,Month-to-month,Yes,Electronic check,87.05,171.13,No
+0445-CHURN,Female,0,Yes,No,8,No,No,Month-to-month,No,Electronic check,89.31,706.88,No
+0446-CHURN,Male,0,Yes,No,24,Yes,Fiber optic,Two year,No,Credit card,110.77,2654.01,No
+0447-CHURN,Female,0,Yes,Yes,8,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,36.29,281.71,No
+0448-CHURN,Male,0,Yes,No,14,Yes,Fiber optic,Month-to-month,No,Electronic check,109.76,1540.95,Yes
+0449-CHURN,Male,1,No,No,3,Yes,DSL,Two year,No,Electronic check,84.96,250.21,No
+0450-CHURN,Female,0,No,No,52,Yes,DSL,Two year,Yes,Credit card,113.92,5930.2,No
+0451-CHURN,Female,0,No,No,12,Yes,Fiber optic,Month-to-month,No,Bank transfer,83.28,992.89,Yes
+0452-CHURN,Female,0,No,No,14,Yes,Fiber optic,One year,Yes,Credit card,92.03,1281.22,Yes
+0453-CHURN,Male,0,Yes,No,40,Yes,Fiber optic,Month-to-month,Yes,Electronic check,52.27,2095.22,Yes
+0454-CHURN,Male,0,No,No,69,Yes,No,Month-to-month,No,Electronic check,92.05,6351.23,Yes
+0455-CHURN,Male,0,Yes,Yes,7,No,DSL,One year,No,Electronic check,100.28,694.09,No
+0456-CHURN,Male,1,Yes,No,52,Yes,No,Two year,Yes,Bank transfer,102.14,5317.14,No
+0457-CHURN,Male,0,Yes,Yes,54,Yes,Fiber optic,Two year,Yes,Mailed check,111.07,5988.59,Yes
+0458-CHURN,Female,0,Yes,No,11,Yes,DSL,Month-to-month,No,Bank transfer,60.12,667.47,No
+0459-CHURN,Male,0,No,No,53,Yes,DSL,Two year,No,Mailed check,90.22,4783.9,No
+0460-CHURN,Female,0,Yes,No,25,Yes,No,Month-to-month,No,Mailed check,64.92,1625.53,Yes
+0461-CHURN,Male,0,Yes,No,61,Yes,DSL,Two year,No,Electronic check,82.99,5058.09,No
+0462-CHURN,Female,0,No,Yes,7,No,DSL,Month-to-month,No,Credit card,69.99,481.35,Yes
+0463-CHURN,Female,0,No,No,42,Yes,DSL,One year,Yes,Mailed check,92.27,3882.74,No
+0464-CHURN,Male,1,No,Yes,56,Yes,No,One year,Yes,Bank transfer,32.14,1804.24,No
+0465-CHURN,Female,0,Yes,Yes,8,Yes,DSL,One year,Yes,Mailed check,94.53,750.64,No
+0466-CHURN,Male,0,Yes,No,71,Yes,DSL,One year,No,Credit card,104.72,7429.45,No
+0467-CHURN,Female,0,No,No,32,Yes,Fiber optic,Two year,Yes,Mailed check,109.88,3524.13,No
+0468-CHURN,Male,1,No,No,65,Yes,No,One year,Yes,Electronic check,63.74,4137.91,No
+0469-CHURN,Male,0,No,No,17,Yes,DSL,Two year,No,Electronic check,66.48,1126.26,No
+0470-CHURN,Male,0,No,No,52,Yes,Fiber optic,Two year,Yes,Electronic check,104.54,5427.49,No
+0471-CHURN,Female,0,No,No,35,Yes,No,Two year,Yes,Mailed check,97.27,3396.07,No
+0472-CHURN,Male,0,No,No,15,Yes,Fiber optic,Two year,Yes,Bank transfer,36.03,541.63,Yes
+0473-CHURN,Male,1,No,Yes,15,Yes,No,Two year,No,Mailed check,93.82,1412.52,No
+0474-CHURN,Female,0,No,Yes,9,Yes,Fiber optic,One year,Yes,Electronic check,65.52,590.32,No
+0475-CHURN,Female,0,No,No,9,Yes,Fiber optic,Month-to-month,Yes,Mailed check,47.34,435.19,Yes
+0476-CHURN,Female,1,Yes,No,27,Yes,No,Month-to-month,Yes,Mailed check,65.89,1777.43,No
+0477-CHURN,Male,0,Yes,Yes,30,Yes,No,Two year,Yes,Bank transfer,84.08,2528.14,No
+0478-CHURN,Female,0,Yes,No,40,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,95.47,3809.75,Yes
+0479-CHURN,Female,0,Yes,No,37,Yes,DSL,Two year,No,Mailed check,34.63,1273.65,No
+0480-CHURN,Male,0,No,Yes,72,Yes,No,One year,No,Mailed check,55.79,4017.68,No
+0481-CHURN,Female,1,Yes,No,64,Yes,Fiber optic,One year,Yes,Bank transfer,83.22,5321.99,No
+0482-CHURN,Male,0,No,No,15,Yes,DSL,Month-to-month,No,Electronic check,49.31,737.68,No
+0483-CHURN,Female,0,No,Yes,25,Yes,DSL,One year,Yes,Electronic check,72.34,1807.41,No
+0484-CHURN,Male,0,No,Yes,41,Yes,No,Month-to-month,No,Bank transfer,58.26,2392.98,No
+0485-CHURN,Female,0,No,No,40,No,No,Month-to-month,Yes,Credit card,92.65,3704.31,No
+0486-CHURN,Male,0,No,No,54,Yes,No,Two year,Yes,Mailed check,48.82,2646.05,No
+0487-CHURN,Female,1,No,Yes,53,Yes,Fiber optic,One year,Yes,Credit card,89.52,4749.66,No
+0488-CHURN,Male,0,No,No,6,Yes,Fiber optic,Two year,Yes,Credit card,40.95,251.52,Yes
+0489-CHURN,Female,0,No,Yes,37,Yes,Fiber optic,Two year,No,Electronic check,30.44,1121.82,No
+0490-CHURN,Male,0,No,No,56,Yes,No,Two year,Yes,Electronic check,55.82,3130.58,Yes
+0491-CHURN,Female,0,Yes,Yes,60,Yes,DSL,One year,Yes,Bank transfer,54.62,3279.92,No
+0492-CHURN,Male,0,Yes,No,24,Yes,No,Month-to-month,Yes,Bank transfer,101.18,2432.02,Yes
+0493-CHURN,Female,1,No,No,2,Yes,Fiber optic,One year,No,Credit card,52.53,113.28,Yes
+0494-CHURN,Male,0,Yes,No,72,Yes,No,Two year,No,Electronic check,60.23,4344.88,No
+0495-CHURN,Male,0,No,No,47,Yes,Fiber optic,Two year,Yes,Bank transfer,35.72,1674.93,No
+0496-CHURN,Male,0,Yes,No,40,Yes,DSL,Month-to-month,Yes,Electronic check,26.27,1056.29,No
+0497-CHURN,Male,0,Yes,No,66,Yes,Fiber optic,Month-to-month,No,Electronic check,25.12,1661.27,No
+0498-CHURN,Male,0,Yes,No,26,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,113.38,2944.84,Yes
+0499-CHURN,Male,0,Yes,Yes,2,Yes,No,Month-to-month,No,Mailed check,108.67,218.08,No
+0500-CHURN,Male,0,No,No,24,Yes,DSL,Month-to-month,No,Credit card,60.91,1462.13,Yes
+0501-CHURN,Female,1,Yes,No,64,Yes,No,One year,Yes,Electronic check,26.72,1709.95,No
+0502-CHURN,Female,0,No,No,57,Yes,Fiber optic,One year,No,Credit card,37.38,2122.05,No
+0503-CHURN,Female,0,No,Yes,63,Yes,Fiber optic,One year,Yes,Electronic check,30.42,1914.36,No
+0504-CHURN,Male,0,Yes,Yes,26,Yes,No,One year,Yes,Credit card,91.02,2362.09,No
+0505-CHURN,Female,0,No,No,52,No,No,One year,Yes,Credit card,29.3,1518.61,No
+0506-CHURN,Male,1,Yes,No,64,Yes,DSL,One year,No,Bank transfer,33.77,2163.72,No
+0507-CHURN,Male,0,No,No,26,Yes,Fiber optic,One year,Yes,Bank transfer,99.45,2586.51,Yes
+0508-CHURN,Male,0,Yes,No,41,Yes,Fiber optic,One year,Yes,Mailed check,74.17,3048.18,No
+0509-CHURN,Male,0,Yes,No,50,Yes,DSL,Two year,No,Credit card,66.09,3311.59,No
+0510-CHURN,Female,0,No,No,46,Yes,Fiber optic,One year,Yes,Electronic check,31.32,1438.05,No
+0511-CHURN,Male,0,No,No,55,Yes,Fiber optic,One year,Yes,Mailed check,43.26,2382.26,No
+0512-CHURN,Male,0,Yes,No,3,Yes,DSL,One year,No,Credit card,75.3,233.93,No
+0513-CHURN,Female,0,No,No,50,Yes,DSL,One year,Yes,Mailed check,52.1,2605.06,No
+0514-CHURN,Female,0,No,No,56,Yes,No,Month-to-month,No,Mailed check,47.24,2636.39,No
+0515-CHURN,Female,0,Yes,No,13,Yes,Fiber optic,Month-to-month,Yes,Credit card,61.21,792.68,Yes
+0516-CHURN,Female,0,No,No,70,Yes,Fiber optic,One year,Yes,Credit card,85.66,5997.15,No
+0517-CHURN,Male,0,Yes,No,60,Yes,No,Two year,No,Credit card,111.96,6722.13,No
+0518-CHURN,Male,0,Yes,Yes,39,Yes,Fiber optic,One year,No,Electronic check,81.89,3200.63,No
+0519-CHURN,Female,0,No,No,31,Yes,DSL,Month-to-month,Yes,Mailed check,98.2,3040.41,Yes
+0520-CHURN,Female,0,Yes,Yes,35,Yes,Fiber optic,One year,No,Mailed check,82.93,2893.39,No
+0521-CHURN,Male,1,Yes,No,39,Yes,Fiber optic,One year,No,Electronic check,58.19,2276.21,No
+0522-CHURN,Male,1,Yes,No,68,Yes,DSL,Month-to-month,Yes,Bank transfer,51.43,3498.93,No
+0523-CHURN,Male,0,Yes,Yes,23,Yes,Fiber optic,One year,Yes,Electronic check,67.54,1550.91,No
+0524-CHURN,Female,0,No,No,36,Yes,DSL,One year,Yes,Bank transfer,100.64,3613.46,No
+0525-CHURN,Male,0,Yes,No,31,Yes,Fiber optic,One year,No,Bank transfer,108.82,3377.12,No
+0526-CHURN,Male,0,No,Yes,51,No,Fiber optic,One year,Yes,Mailed check,48.24,2467.43,No
+0527-CHURN,Female,0,No,No,36,Yes,Fiber optic,One year,No,Bank transfer,90.24,3256.18,No
+0528-CHURN,Male,0,Yes,No,71,Yes,Fiber optic,Two year,Yes,Electronic check,82.64,5861.11,No
+0529-CHURN,Male,1,Yes,No,41,Yes,DSL,Month-to-month,Yes,Mailed check,103.2,4234.92,No
+0530-CHURN,Female,0,Yes,Yes,42,Yes,DSL,Month-to-month,Yes,Mailed check,57.85,2427.25,No
+0531-CHURN,Male,1,Yes,No,30,No,Fiber optic,Month-to-month,Yes,Mailed check,23.48,706.76,Yes
+0532-CHURN,Male,1,No,Yes,16,Yes,No,One year,No,Credit card,101.23,1619.56,No
+0533-CHURN,Male,0,No,Yes,64,Yes,Fiber optic,Month-to-month,No,Bank transfer,91.17,5828.67,Yes
+0534-CHURN,Male,1,No,Yes,58,No,Fiber optic,Two year,No,Credit card,27.07,1569.44,No
+0535-CHURN,Female,0,No,No,33,Yes,No,Month-to-month,Yes,Mailed check,65.59,2161.56,No
+0536-CHURN,Male,1,No,No,51,Yes,DSL,Two year,Yes,Mailed check,44.53,2271.1,No
+0537-CHURN,Female,1,No,No,56,Yes,DSL,One year,Yes,Mailed check,68.42,3840.99,No
+0538-CHURN,Female,0,No,No,34,Yes,Fiber optic,Two year,Yes,Mailed check,50.05,1711.59,No
+0539-CHURN,Male,0,No,Yes,20,Yes,DSL,Month-to-month,Yes,Mailed check,89.1,1780.73,No
+0540-CHURN,Female,1,No,No,72,Yes,Fiber optic,Month-to-month,No,Mailed check,30.87,2214.51,No
+0541-CHURN,Male,0,No,No,28,Yes,DSL,Two year,No,Mailed check,60.14,1675.46,No
+0542-CHURN,Male,0,Yes,Yes,16,Yes,No,Month-to-month,No,Mailed check,21.39,341.44,No
+0543-CHURN,Female,0,No,No,1,Yes,DSL,Two year,No,Credit card,50.99,55.62,No
+0544-CHURN,Male,0,Yes,No,37,Yes,DSL,Two year,Yes,Credit card,27.76,1022.22,No
+0545-CHURN,Female,1,Yes,Yes,52,Yes,No,Month-to-month,Yes,Credit card,98.61,5132.44,No
+0546-CHURN,Male,0,Yes,No,66,Yes,Fiber optic,One year,Yes,Credit card,27.52,1814.77,No
+0547-CHURN,Male,0,No,Yes,66,Yes,Fiber optic,Two year,Yes,Mailed check,111.57,7364.17,No
+0548-CHURN,Male,0,No,Yes,62,Yes,DSL,Two year,No,Mailed check,70.81,4386.13,Yes
+0549-CHURN,Male,0,Yes,No,53,Yes,No,Two year,Yes,Bank transfer,54.05,2866.36,No
+0550-CHURN,Male,1,No,Yes,24,Yes,DSL,Month-to-month,Yes,Bank transfer,49.89,1201.84,No
+0551-CHURN,Female,0,No,No,24,Yes,DSL,Two year,No,Bank transfer,105.66,2527.97,No
+0552-CHURN,Male,0,Yes,Yes,62,Yes,Fiber optic,Two year,No,Credit card,48.78,3030.62,No
+0553-CHURN,Female,0,Yes,Yes,2,Yes,DSL,Two year,No,Electronic check,39.42,81.81,No
+0554-CHURN,Female,0,Yes,Yes,60,Yes,Fiber optic,Month-to-month,Yes,Mailed check,92.38,5541.71,No
+0555-CHURN,Male,0,Yes,Yes,51,Yes,DSL,Month-to-month,No,Credit card,116.45,5945.92,No
+0556-CHURN,Female,1,No,No,63,Yes,DSL,Two year,Yes,Bank transfer,73.83,4646.65,No
+0557-CHURN,Female,1,No,No,56,Yes,Fiber optic,Two year,Yes,Bank transfer,62.31,3489.51,No
+0558-CHURN,Female,0,No,Yes,38,Yes,Fiber optic,One year,No,Bank transfer,98.1,3733.8,No
+0559-CHURN,Male,0,Yes,No,17,Yes,DSL,Two year,Yes,Credit card,112.81,1917.64,No
+0560-CHURN,Male,0,No,No,46,Yes,DSL,Two year,Yes,Electronic check,52.27,2396.7,No
+0561-CHURN,Male,0,No,No,6,Yes,No,One year,No,Electronic check,89.14,543.37,No
+0562-CHURN,Female,0,Yes,No,14,Yes,DSL,Two year,Yes,Electronic check,105.59,1486.48,Yes
+0563-CHURN,Female,0,No,No,13,Yes,Fiber optic,One year,No,Electronic check,103.36,1342.46,No
+0564-CHURN,Male,0,No,No,65,Yes,Fiber optic,One year,No,Credit card,54.56,3549.7,No
+0565-CHURN,Female,0,Yes,No,53,No,Fiber optic,Two year,No,Bank transfer,112.87,5980.96,No
+0566-CHURN,Male,1,No,No,22,Yes,Fiber optic,Month-to-month,No,Mailed check,108.75,2383.66,Yes
+0567-CHURN,Female,0,No,No,41,No,DSL,One year,No,Mailed check,88.53,3628.65,No
+0568-CHURN,Female,0,No,No,39,Yes,No,One year,Yes,Mailed check,70.55,2752.27,No
+0569-CHURN,Female,0,Yes,Yes,70,Yes,DSL,One year,No,Electronic check,91.7,6425.83,No
+0570-CHURN,Female,1,Yes,No,1,Yes,DSL,Two year,No,Mailed check,53.53,53.53,No
+0571-CHURN,Male,0,Yes,Yes,67,Yes,Fiber optic,One year,Yes,Credit card,101.34,6781.42,Yes
+0572-CHURN,Male,0,No,Yes,68,Yes,No,Two year,No,Bank transfer,76.93,5233.97,No
+0573-CHURN,Female,0,No,No,19,Yes,Fiber optic,Two year,Yes,Electronic check,87.95,1670.16,Yes
+0574-CHURN,Male,0,No,No,16,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,22.53,353.55,Yes
+0575-CHURN,Female,0,No,Yes,19,Yes,No,One year,Yes,Bank transfer,107.41,2035.1,No
+0576-CHURN,Female,1,No,Yes,6,Yes,No,One year,Yes,Bank transfer,96.63,579.28,No
+0577-CHURN,Male,0,No,No,58,Yes,No,One year,Yes,Credit card,57.22,3326.76,No
+0578-CHURN,Male,0,No,No,12,Yes,No,Month-to-month,Yes,Bank transfer,74.6,887.68,No
+0579-CHURN,Male,0,Yes,No,67,Yes,Fiber optic,Two year,No,Electronic check,84.33,5650.75,No
+0580-CHURN,Female,0,Yes,No,57,Yes,No,Two year,Yes,Electronic check,67.65,3864.73,No
+0581-CHURN,Male,0,No,No,12,Yes,DSL,Two year,Yes,Mailed check,36.77,446.61,Yes
+0582-CHURN,Female,0,Yes,No,42,Yes,No,Month-to-month,Yes,Electronic check,50.5,2119.26,No
+0583-CHURN,Female,0,Yes,Yes,31,Yes,No,Month-to-month,Yes,Credit card,113.44,3512.03,Yes
+0584-CHURN,Female,1,Yes,No,30,No,DSL,One year,Yes,Electronic check,43.13,1294.99,No
+0585-CHURN,Female,0,No,Yes,65,Yes,DSL,One year,Yes,Mailed check,96.7,6286.25,No
+0586-CHURN,Female,1,No,No,38,Yes,DSL,Month-to-month,Yes,Credit card,45.83,1736.56,No
+0587-CHURN,Female,0,Yes,No,66,Yes,DSL,Two year,Yes,Electronic check,48.56,3202.87,No
+0588-CHURN,Male,0,No,No,27,Yes,Fiber optic,Two year,No,Bank transfer,116.46,3148.58,Yes
+0589-CHURN,Female,0,No,No,43,Yes,No,Month-to-month,No,Electronic check,79.38,3403.43,Yes
+0590-CHURN,Male,0,No,No,69,Yes,No,Two year,Yes,Electronic check,107.76,7441.76,No
+0591-CHURN,Male,0,No,No,46,Yes,No,Month-to-month,Yes,Bank transfer,112.12,5156.41,Yes
+0592-CHURN,Male,0,No,Yes,39,Yes,DSL,Month-to-month,No,Bank transfer,22.18,864.88,No
+0593-CHURN,Male,1,No,Yes,36,Yes,Fiber optic,Month-to-month,Yes,Mailed check,25.04,894.0,Yes
+0594-CHURN,Female,0,Yes,No,36,Yes,No,Month-to-month,No,Bank transfer,86.57,3124.18,Yes
+0595-CHURN,Female,0,Yes,No,42,Yes,Fiber optic,One year,Yes,Credit card,68.06,2858.87,Yes
+0596-CHURN,Male,1,No,No,41,Yes,DSL,One year,Yes,Electronic check,117.53,4813.24,No
+0597-CHURN,Male,0,Yes,Yes,40,Yes,No,Month-to-month,Yes,Credit card,99.31,3974.25,No
+0598-CHURN,Female,0,Yes,Yes,31,No,DSL,One year,Yes,Mailed check,112.85,3503.86,No
+0599-CHURN,Male,0,Yes,Yes,8,No,Fiber optic,One year,No,Electronic check,96.76,765.32,No
+0600-CHURN,Male,0,No,Yes,8,Yes,Fiber optic,One year,Yes,Credit card,41.81,336.47,No
+0601-CHURN,Male,0,No,No,13,Yes,No,Month-to-month,Yes,Bank transfer,77.28,996.8,Yes
+0602-CHURN,Male,0,Yes,No,17,Yes,Fiber optic,One year,Yes,Credit card,37.09,623.28,Yes
+0603-CHURN,Male,0,No,No,46,Yes,No,Month-to-month,Yes,Bank transfer,78.83,3622.0,No
+0604-CHURN,Male,1,Yes,No,26,No,No,Month-to-month,No,Bank transfer,37.44,972.95,No
+0605-CHURN,Female,0,No,No,43,Yes,Fiber optic,One year,Yes,Credit card,106.11,4570.94,No
+0606-CHURN,Male,0,Yes,No,28,Yes,No,One year,No,Credit card,39.03,1086.52,No
+0607-CHURN,Female,1,No,Yes,15,Yes,Fiber optic,Month-to-month,No,Bank transfer,22.89,333.94,Yes
+0608-CHURN,Male,0,No,No,44,Yes,DSL,Month-to-month,Yes,Mailed check,102.79,4530.97,Yes
+0609-CHURN,Male,0,Yes,No,27,Yes,DSL,One year,No,Mailed check,112.62,3050.28,No
+0610-CHURN,Female,0,Yes,Yes,17,Yes,DSL,Two year,Yes,Bank transfer,50.3,853.69,No
+0611-CHURN,Male,0,Yes,No,38,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,105.79,4027.05,No
+0612-CHURN,Female,0,Yes,No,9,Yes,Fiber optic,Two year,No,Bank transfer,68.36,614.53,Yes
+0613-CHURN,Female,0,No,No,64,Yes,No,One year,No,Electronic check,39.22,2517.98,No
+0614-CHURN,Male,0,No,No,49,Yes,Fiber optic,One year,Yes,Mailed check,93.66,4585.24,No
+0615-CHURN,Male,0,No,No,44,Yes,Fiber optic,One year,Yes,Credit card,50.2,2206.45,No
+0616-CHURN,Male,0,Yes,No,11,Yes,No,Two year,Yes,Electronic check,97.09,1076.52,Yes
+0617-CHURN,Male,0,Yes,No,43,Yes,No,Two year,No,Mailed check,89.06,3839.54,No
+0618-CHURN,Female,1,No,Yes,45,Yes,Fiber optic,One year,No,Electronic check,65.7,2956.75,No
+0619-CHURN,Male,0,Yes,Yes,27,Yes,No,Two year,No,Credit card,90.75,2449.48,No
+0620-CHURN,Female,0,No,No,54,Yes,Fiber optic,Two year,Yes,Mailed check,76.25,4110.07,No
+0621-CHURN,Male,0,No,No,54,Yes,Fiber optic,Two year,Yes,Bank transfer,77.2,4170.15,Yes
+0622-CHURN,Male,1,No,No,51,No,DSL,One year,Yes,Credit card,37.33,1896.0,No
+0623-CHURN,Female,0,No,Yes,14,Yes,DSL,Month-to-month,No,Credit card,21.18,290.5,No
+0624-CHURN,Female,0,Yes,Yes,68,Yes,DSL,One year,Yes,Mailed check,51.18,3488.44,No
+0625-CHURN,Male,1,No,No,9,Yes,DSL,Month-to-month,No,Bank transfer,61.72,559.67,Yes
+0626-CHURN,Female,0,No,Yes,1,No,Fiber optic,Month-to-month,No,Mailed check,71.09,79.3,No
+0627-CHURN,Female,0,Yes,No,37,Yes,Fiber optic,One year,No,Bank transfer,57.61,2138.04,No
+0628-CHURN,Female,0,No,No,24,Yes,DSL,One year,No,Electronic check,42.47,1026.69,No
+0629-CHURN,Female,0,Yes,No,28,No,Fiber optic,Two year,Yes,Bank transfer,26.15,724.3,No
+0630-CHURN,Female,0,Yes,Yes,65,Yes,DSL,Month-to-month,No,Credit card,56.62,3685.22,No
+0631-CHURN,Female,1,No,Yes,18,Yes,No,One year,Yes,Electronic check,26.75,484.64,No
+0632-CHURN,Female,1,No,No,22,Yes,No,Month-to-month,Yes,Electronic check,71.97,1581.16,Yes
+0633-CHURN,Male,0,Yes,No,23,Yes,DSL,Two year,Yes,Credit card,88.17,2034.64,No
+0634-CHURN,Male,0,No,No,1,Yes,Fiber optic,Month-to-month,No,Bank transfer,109.38,109.38,Yes
+0635-CHURN,Male,0,No,No,9,Yes,DSL,Two year,Yes,Mailed check,22.9,206.35,No
+0636-CHURN,Female,0,Yes,No,70,Yes,Fiber optic,Month-to-month,Yes,Electronic check,54.16,3784.67,Yes
+0637-CHURN,Female,1,Yes,No,9,Yes,Fiber optic,Two year,No,Electronic check,25.23,221.44,Yes
+0638-CHURN,Female,0,Yes,No,22,Yes,DSL,Two year,Yes,Credit card,86.29,1907.83,No
+0639-CHURN,Female,0,No,No,62,Yes,DSL,Two year,No,Credit card,56.74,3520.69,No
+0640-CHURN,Male,0,Yes,No,55,Yes,No,Month-to-month,Yes,Bank transfer,68.37,3754.39,No
+0641-CHURN,Male,0,No,No,43,Yes,Fiber optic,Two year,No,Electronic check,70.59,3044.92,No
+0642-CHURN,Female,0,Yes,No,43,Yes,DSL,Two year,Yes,Mailed check,98.65,4245.88,No
+0643-CHURN,Female,0,Yes,No,1,Yes,Fiber optic,Month-to-month,No,Electronic check,81.94,81.94,Yes
+0644-CHURN,Male,0,Yes,Yes,11,Yes,Fiber optic,One year,Yes,Mailed check,42.99,466.42,Yes
+0645-CHURN,Female,0,Yes,Yes,62,Yes,Fiber optic,One year,Yes,Credit card,62.64,3883.79,No
+0646-CHURN,Male,0,No,Yes,49,Yes,DSL,One year,Yes,Mailed check,73.79,3609.22,No
+0647-CHURN,Female,0,No,No,62,Yes,DSL,Two year,Yes,Mailed check,110.11,6816.9,No
+0648-CHURN,Female,0,No,No,48,Yes,Fiber optic,Two year,No,Electronic check,59.38,2841.02,No
+0649-CHURN,Female,0,Yes,Yes,56,No,No,One year,Yes,Credit card,82.0,4589.36,No
+0650-CHURN,Female,0,Yes,Yes,5,No,Fiber optic,Two year,No,Electronic check,88.25,444.16,Yes
+0651-CHURN,Female,0,Yes,Yes,21,Yes,DSL,Two year,No,Credit card,58.27,1225.39,No
+0652-CHURN,Male,0,Yes,No,33,Yes,No,Two year,No,Credit card,77.11,2549.31,No
+0653-CHURN,Male,1,No,No,35,Yes,No,One year,No,Electronic check,117.2,4108.33,Yes
+0654-CHURN,Male,0,No,No,37,Yes,DSL,Month-to-month,Yes,Mailed check,38.3,1410.74,No
+0655-CHURN,Female,0,Yes,Yes,8,Yes,DSL,One year,No,Credit card,62.57,508.82,Yes
+0656-CHURN,Male,1,Yes,No,36,Yes,DSL,Two year,Yes,Credit card,85.78,3080.1,Yes
+0657-CHURN,Male,0,Yes,Yes,67,Yes,Fiber optic,Two year,Yes,Bank transfer,111.71,7484.03,No
+0658-CHURN,Female,0,No,No,31,No,No,One year,Yes,Electronic check,116.03,3604.39,No
+0659-CHURN,Male,0,No,No,18,Yes,DSL,Two year,Yes,Mailed check,55.34,998.49,No
+0660-CHURN,Female,0,Yes,Yes,42,Yes,Fiber optic,Month-to-month,No,Bank transfer,86.29,3618.85,No
+0661-CHURN,Male,0,No,No,13,Yes,Fiber optic,Two year,Yes,Mailed check,105.49,1378.89,No
+0662-CHURN,Male,1,Yes,No,71,No,Fiber optic,Month-to-month,No,Electronic check,66.72,4737.93,Yes
+0663-CHURN,Male,0,Yes,Yes,4,Yes,Fiber optic,One year,No,Mailed check,90.42,365.0,No
+0664-CHURN,Male,0,No,Yes,43,Yes,No,Two year,Yes,Bank transfer,56.2,2420.95,No
+0665-CHURN,Female,0,No,No,29,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,92.56,2692.98,Yes
+0666-CHURN,Male,0,Yes,No,49,Yes,DSL,One year,Yes,Mailed check,103.21,5066.89,No
+0667-CHURN,Female,0,Yes,No,29,Yes,DSL,Two year,No,Bank transfer,32.97,964.99,No
+0668-CHURN,Female,0,Yes,No,19,Yes,No,Month-to-month,Yes,Bank transfer,68.74,1309.83,Yes
+0669-CHURN,Female,0,Yes,No,49,Yes,Fiber optic,Month-to-month,No,Mailed check,103.31,5070.88,Yes
+0670-CHURN,Male,0,Yes,No,51,Yes,No,Month-to-month,No,Credit card,52.24,2667.8,No
+0671-CHURN,Female,0,No,Yes,25,Yes,No,One year,Yes,Bank transfer,93.73,2344.86,No
+0672-CHURN,Female,0,Yes,No,57,Yes,Fiber optic,Month-to-month,Yes,Mailed check,92.03,5235.89,No
+0673-CHURN,Male,0,Yes,No,55,Yes,DSL,Month-to-month,Yes,Credit card,36.46,1996.35,No
+0674-CHURN,Female,0,Yes,No,52,Yes,DSL,Month-to-month,Yes,Bank transfer,87.3,4548.69,No
+0675-CHURN,Female,0,Yes,No,49,Yes,No,One year,Yes,Electronic check,30.16,1470.28,No
+0676-CHURN,Male,1,No,Yes,13,Yes,DSL,One year,Yes,Credit card,48.34,620.92,No
+0677-CHURN,Male,0,Yes,No,69,Yes,No,One year,Yes,Electronic check,93.85,6469.8,No
+0678-CHURN,Male,0,Yes,Yes,58,Yes,DSL,Month-to-month,Yes,Mailed check,83.76,4849.84,No
+0679-CHURN,Male,1,Yes,No,47,No,DSL,One year,No,Electronic check,43.33,2027.43,No
+0680-CHURN,Female,0,No,Yes,63,Yes,No,One year,No,Mailed check,87.29,5502.52,Yes
+0681-CHURN,Male,0,No,No,28,No,No,Two year,Yes,Bank transfer,46.24,1299.3,No
+0682-CHURN,Female,0,Yes,No,11,No,No,One year,No,Mailed check,72.09,784.4,No
+0683-CHURN,Male,0,Yes,No,20,Yes,Fiber optic,One year,Yes,Mailed check,26.25,517.49,Yes
+0684-CHURN,Female,1,Yes,No,43,Yes,DSL,Month-to-month,Yes,Electronic check,56.22,2426.84,No
+0685-CHURN,Male,0,Yes,Yes,40,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,73.65,2948.15,No
+0686-CHURN,Male,0,No,Yes,69,Yes,Fiber optic,One year,Yes,Bank transfer,19.45,1342.32,No
+0687-CHURN,Male,1,No,Yes,48,Yes,DSL,Two year,No,Credit card,36.81,1776.6,No
+0688-CHURN,Female,0,No,No,30,Yes,DSL,One year,Yes,Bank transfer,103.02,3093.29,Yes
+0689-CHURN,Male,0,Yes,No,11,Yes,No,One year,No,Electronic check,114.72,1260.4,No
+0690-CHURN,Male,0,Yes,No,25,No,No,Month-to-month,No,Bank transfer,42.92,1077.78,No
+0691-CHURN,Male,0,Yes,No,68,No,DSL,Month-to-month,Yes,Mailed check,69.87,4760.21,No
+0692-CHURN,Female,0,Yes,No,32,Yes,DSL,One year,Yes,Bank transfer,44.98,1429.4,No
+0693-CHURN,Female,0,No,No,66,Yes,DSL,One year,No,Credit card,24.25,1590.62,No
+0694-CHURN,Female,0,Yes,No,24,Yes,DSL,Month-to-month,Yes,Mailed check,26.97,647.57,Yes
+0695-CHURN,Male,0,Yes,Yes,33,Yes,Fiber optic,One year,Yes,Credit card,107.72,3555.49,Yes
+0696-CHURN,Female,0,No,Yes,46,Yes,DSL,One year,No,Mailed check,29.57,1355.92,No
+0697-CHURN,Female,0,Yes,Yes,26,No,No,One year,Yes,Credit card,73.51,1917.26,No
+0698-CHURN,Female,0,No,No,50,Yes,DSL,Month-to-month,Yes,Bank transfer,68.5,3430.35,Yes
+0699-CHURN,Female,0,Yes,No,38,Yes,DSL,One year,Yes,Mailed check,91.42,3467.7,No
+0700-CHURN,Male,0,Yes,No,55,Yes,No,Month-to-month,No,Mailed check,37.37,2062.45,No
+0701-CHURN,Male,0,Yes,No,36,No,DSL,One year,Yes,Mailed check,27.59,984.26,No
+0702-CHURN,Female,0,Yes,Yes,55,Yes,No,One year,No,Bank transfer,29.51,1620.32,No
+0703-CHURN,Female,0,Yes,Yes,1,Yes,No,One year,Yes,Credit card,46.52,48.65,No
+0704-CHURN,Female,0,No,No,15,Yes,DSL,Two year,Yes,Mailed check,51.62,779.13,No
+0705-CHURN,Female,0,No,Yes,50,Yes,DSL,Month-to-month,No,Electronic check,22.6,1139.37,No
+0706-CHURN,Male,0,No,No,10,No,No,One year,Yes,Credit card,117.46,1168.64,No
+0707-CHURN,Male,1,No,No,33,Yes,No,One year,No,Credit card,81.49,2681.52,No
+0708-CHURN,Female,0,Yes,Yes,36,Yes,DSL,One year,Yes,Electronic check,97.94,3529.72,No
+0709-CHURN,Female,0,Yes,Yes,66,Yes,Fiber optic,One year,No,Mailed check,36.91,2429.26,No
+0710-CHURN,Male,0,No,No,68,Yes,DSL,One year,No,Electronic check,35.61,2412.39,No
+0711-CHURN,Male,0,No,No,35,Yes,DSL,Two year,No,Mailed check,71.96,2508.63,No
+0712-CHURN,Female,0,No,No,53,Yes,Fiber optic,One year,No,Electronic check,100.89,5341.56,No
+0713-CHURN,Male,0,Yes,No,14,Yes,No,One year,No,Bank transfer,105.5,1479.69,No
+0714-CHURN,Female,0,No,Yes,51,Yes,DSL,Two year,No,Bank transfer,33.33,1699.41,No
+0715-CHURN,Female,0,Yes,Yes,63,No,DSL,Two year,Yes,Bank transfer,34.79,2185.32,No
+0716-CHURN,Male,1,Yes,No,59,No,Fiber optic,Month-to-month,No,Mailed check,91.18,5385.78,No
+0717-CHURN,Female,0,Yes,No,6,Yes,DSL,One year,Yes,Electronic check,97.74,576.63,No
+0718-CHURN,Female,0,Yes,Yes,62,Yes,Fiber optic,Month-to-month,Yes,Credit card,33.95,2096.02,No
+0719-CHURN,Male,1,Yes,Yes,38,Yes,Fiber optic,Month-to-month,Yes,Mailed check,20.9,792.74,Yes
+0720-CHURN,Female,0,No,No,15,Yes,DSL,Month-to-month,Yes,Bank transfer,54.23,815.76,Yes
+0721-CHURN,Male,0,Yes,Yes,68,Yes,DSL,Two year,Yes,Bank transfer,80.98,5502.38,No
+0722-CHURN,Female,0,No,No,10,Yes,DSL,Two year,Yes,Mailed check,57.56,580.03,No
+0723-CHURN,Female,0,Yes,No,36,Yes,Fiber optic,Month-to-month,Yes,Credit card,53.76,1935.24,Yes
+0724-CHURN,Female,0,No,Yes,32,Yes,No,One year,Yes,Credit card,71.75,2302.43,No
+0725-CHURN,Female,0,Yes,No,31,Yes,DSL,Month-to-month,Yes,Credit card,114.26,3550.48,Yes
+0726-CHURN,Female,0,Yes,Yes,19,Yes,No,One year,Yes,Mailed check,24.09,450.47,No
+0727-CHURN,Male,0,Yes,No,55,Yes,No,Month-to-month,No,Electronic check,66.18,3641.78,Yes
+0728-CHURN,Male,0,Yes,Yes,2,Yes,Fiber optic,Month-to-month,No,Credit card,92.86,190.68,Yes
+0729-CHURN,Female,0,No,No,2,Yes,DSL,Month-to-month,No,Electronic check,78.92,151.31,Yes
+0730-CHURN,Female,0,No,No,34,No,No,One year,No,Credit card,111.65,3791.54,Yes
+0731-CHURN,Female,0,Yes,No,52,Yes,DSL,One year,Yes,Electronic check,100.16,5207.69,No
+0732-CHURN,Female,0,Yes,Yes,48,Yes,DSL,One year,Yes,Electronic check,54.77,2634.54,No
+0733-CHURN,Male,0,Yes,Yes,2,Yes,Fiber optic,Month-to-month,Yes,Electronic check,42.53,76.76,Yes
+0734-CHURN,Male,0,No,Yes,41,Yes,Fiber optic,Month-to-month,No,Bank transfer,114.37,4689.17,Yes
+0735-CHURN,Female,0,Yes,No,13,Yes,No,Two year,Yes,Mailed check,20.87,277.23,No
+0736-CHURN,Male,0,Yes,No,11,Yes,DSL,Two year,Yes,Mailed check,99.25,1094.83,No
+0737-CHURN,Male,0,No,No,17,Yes,Fiber optic,Two year,No,Credit card,22.5,386.76,No
+0738-CHURN,Male,0,Yes,No,64,Yes,DSL,Month-to-month,No,Bank transfer,73.21,4694.82,No
+0739-CHURN,Male,0,No,No,38,Yes,Fiber optic,Two year,Yes,Electronic check,25.61,977.39,No
+0740-CHURN,Female,0,No,No,18,No,No,One year,Yes,Bank transfer,58.59,1061.76,No
+0741-CHURN,Male,0,No,No,53,Yes,Fiber optic,Two year,Yes,Electronic check,92.6,4902.7,No
+0742-CHURN,Male,1,Yes,Yes,21,Yes,DSL,Month-to-month,Yes,Credit card,85.42,1790.8,Yes
+0743-CHURN,Female,1,Yes,No,51,Yes,DSL,One year,Yes,Bank transfer,52.74,2691.83,No
+0744-CHURN,Female,1,No,Yes,20,No,DSL,Two year,Yes,Electronic check,117.28,2351.08,Yes
+0745-CHURN,Female,0,No,Yes,28,Yes,No,One year,Yes,Mailed check,26.86,743.47,No
+0746-CHURN,Female,0,No,No,68,Yes,Fiber optic,Month-to-month,No,Electronic check,108.0,7342.57,No
+0747-CHURN,Female,0,No,No,62,Yes,No,Month-to-month,No,Credit card,53.97,3350.0,No
+0748-CHURN,Male,0,Yes,Yes,19,Yes,No,Two year,No,Bank transfer,19.92,386.41,No
+0749-CHURN,Female,0,Yes,No,53,Yes,No,Month-to-month,No,Mailed check,81.93,4345.07,No
+0750-CHURN,Male,0,Yes,No,70,Yes,No,One year,Yes,Mailed check,113.74,7971.23,No
+0751-CHURN,Male,0,No,Yes,40,Yes,DSL,Two year,Yes,Credit card,59.91,2393.43,No
+0752-CHURN,Female,0,No,Yes,23,Yes,Fiber optic,Month-to-month,Yes,Mailed check,72.78,1671.57,No
+0753-CHURN,Female,0,Yes,No,14,Yes,DSL,Two year,No,Electronic check,68.14,958.99,No
+0754-CHURN,Male,0,Yes,No,54,Yes,Fiber optic,Two year,Yes,Mailed check,104.13,5632.03,No
+0755-CHURN,Female,0,No,Yes,48,Yes,No,One year,Yes,Bank transfer,49.24,2371.57,No
+0756-CHURN,Male,1,No,Yes,4,Yes,Fiber optic,Two year,No,Bank transfer,52.01,217.22,No
+0757-CHURN,Male,0,No,Yes,51,Yes,No,One year,Yes,Credit card,116.24,5921.71,No
+0758-CHURN,Male,0,Yes,No,17,Yes,No,Two year,No,Bank transfer,102.23,1731.09,No
+0759-CHURN,Male,1,No,Yes,20,Yes,No,Two year,No,Electronic check,75.68,1504.11,No
+0760-CHURN,Female,0,No,Yes,29,Yes,No,Month-to-month,No,Credit card,95.54,2773.85,Yes
+0761-CHURN,Male,0,Yes,Yes,16,Yes,Fiber optic,One year,No,Electronic check,26.24,426.73,No
+0762-CHURN,Male,0,No,No,53,Yes,No,Month-to-month,Yes,Credit card,56.03,2965.86,No
+0763-CHURN,Male,0,Yes,No,5,Yes,Fiber optic,One year,Yes,Electronic check,34.34,176.53,No
+0764-CHURN,Male,0,Yes,No,20,Yes,Fiber optic,Month-to-month,No,Electronic check,51.25,1019.4,Yes
+0765-CHURN,Male,0,No,Yes,12,Yes,No,Two year,Yes,Credit card,62.11,754.25,No
+0766-CHURN,Female,0,No,No,14,Yes,No,One year,Yes,Mailed check,113.88,1594.08,No
+0767-CHURN,Female,0,No,No,14,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,108.29,1522.45,Yes
+0768-CHURN,Male,0,No,No,38,Yes,No,Two year,Yes,Electronic check,29.96,1144.66,No
+0769-CHURN,Male,0,Yes,Yes,48,Yes,Fiber optic,Month-to-month,Yes,Electronic check,90.18,4322.92,No
+0770-CHURN,Female,0,Yes,No,28,Yes,DSL,Two year,Yes,Electronic check,75.89,2127.85,No
+0771-CHURN,Female,0,No,Yes,7,Yes,Fiber optic,Month-to-month,No,Credit card,30.43,212.07,Yes
+0772-CHURN,Female,0,Yes,Yes,1,No,Fiber optic,Month-to-month,No,Credit card,22.2,22.87,Yes
+0773-CHURN,Female,0,Yes,No,54,Yes,Fiber optic,One year,No,Credit card,26.48,1435.41,No
+0774-CHURN,Male,0,No,No,16,Yes,No,Month-to-month,Yes,Electronic check,101.05,1609.57,No
+0775-CHURN,Female,0,Yes,Yes,48,Yes,No,Month-to-month,No,Electronic check,44.47,2140.26,Yes
+0776-CHURN,Female,1,No,No,49,Yes,DSL,Month-to-month,Yes,Electronic check,31.13,1532.61,No
+0777-CHURN,Female,0,Yes,No,31,Yes,No,One year,No,Bank transfer,95.76,2968.21,Yes
+0778-CHURN,Female,0,No,No,32,Yes,No,Month-to-month,No,Electronic check,115.68,3692.97,Yes
+0779-CHURN,Male,0,No,Yes,14,Yes,No,Two year,Yes,Bank transfer,94.55,1319.94,No
+0780-CHURN,Male,0,Yes,No,29,No,Fiber optic,One year,No,Mailed check,96.5,2792.26,Yes
+0781-CHURN,Male,0,Yes,Yes,14,Yes,DSL,Month-to-month,No,Mailed check,45.18,632.04,Yes
+0782-CHURN,Female,0,Yes,No,28,Yes,No,One year,Yes,Electronic check,62.63,1751.04,Yes
+0783-CHURN,Female,0,No,Yes,25,Yes,No,One year,Yes,Credit card,70.36,1751.18,Yes
+0784-CHURN,Male,0,Yes,Yes,5,Yes,DSL,Month-to-month,Yes,Bank transfer,41.15,208.15,No
+0785-CHURN,Female,0,Yes,No,35,Yes,DSL,Month-to-month,Yes,Bank transfer,89.09,3113.91,Yes
+0786-CHURN,Male,0,No,No,31,Yes,No,Month-to-month,Yes,Bank transfer,108.49,3356.03,Yes
+0787-CHURN,Female,0,Yes,Yes,34,Yes,DSL,Two year,No,Electronic check,77.9,2657.99,No
+0788-CHURN,Female,0,No,Yes,3,Yes,Fiber optic,Month-to-month,Yes,Mailed check,94.0,287.51,Yes
+0789-CHURN,Female,0,No,No,33,Yes,Fiber optic,One year,Yes,Bank transfer,48.61,1600.8,No
+0790-CHURN,Female,1,Yes,Yes,53,Yes,No,Month-to-month,Yes,Electronic check,42.94,2280.64,No
+0791-CHURN,Female,0,Yes,Yes,49,Yes,Fiber optic,Two year,No,Credit card,117.23,5751.79,No
+0792-CHURN,Female,0,No,No,36,Yes,DSL,Two year,Yes,Bank transfer,101.92,3661.58,No
+0793-CHURN,Female,0,Yes,No,19,Yes,DSL,Two year,No,Mailed check,48.86,924.11,No
+0794-CHURN,Male,0,Yes,Yes,16,Yes,Fiber optic,Month-to-month,Yes,Electronic check,23.49,368.59,No
+0795-CHURN,Male,0,No,Yes,26,Yes,DSL,One year,Yes,Credit card,111.79,2901.51,No
+0796-CHURN,Female,0,Yes,No,39,Yes,DSL,Two year,Yes,Bank transfer,98.94,3851.44,No
+0797-CHURN,Female,1,Yes,No,11,Yes,No,One year,Yes,Credit card,96.74,1070.82,Yes
+0798-CHURN,Female,0,No,No,55,Yes,Fiber optic,One year,Yes,Electronic check,114.25,6282.17,No
+0799-CHURN,Female,0,No,Yes,70,Yes,Fiber optic,Month-to-month,No,Credit card,31.09,2179.7,No
+0800-CHURN,Female,0,Yes,Yes,14,Yes,DSL,One year,Yes,Bank transfer,104.93,1461.45,No
+0801-CHURN,Male,0,Yes,No,64,Yes,No,Two year,No,Bank transfer,81.32,5208.86,No
+0802-CHURN,Female,0,Yes,Yes,1,Yes,DSL,Two year,Yes,Mailed check,28.86,28.86,No
+0803-CHURN,Female,1,Yes,Yes,62,No,DSL,Two year,Yes,Credit card,104.43,6477.0,No
+0804-CHURN,Male,0,Yes,Yes,70,Yes,Fiber optic,One year,Yes,Electronic check,114.41,8008.56,No
+0805-CHURN,Female,0,Yes,No,55,Yes,Fiber optic,One year,Yes,Credit card,19.6,1074.06,No
+0806-CHURN,Female,1,No,No,60,Yes,Fiber optic,One year,Yes,Mailed check,54.27,3263.32,No
+0807-CHURN,Female,0,No,No,23,Yes,Fiber optic,Two year,No,Bank transfer,64.45,1489.52,Yes
+0808-CHURN,Female,0,Yes,No,62,Yes,Fiber optic,Two year,No,Bank transfer,31.44,1945.76,No
+0809-CHURN,Female,0,No,Yes,4,Yes,DSL,Month-to-month,Yes,Electronic check,68.44,277.35,Yes
+0810-CHURN,Male,0,Yes,Yes,23,Yes,Fiber optic,One year,No,Electronic check,79.69,1825.16,No
+0811-CHURN,Male,0,No,No,4,No,Fiber optic,Month-to-month,No,Credit card,31.82,130.03,Yes
+0812-CHURN,Male,0,No,No,29,Yes,DSL,One year,No,Mailed check,27.1,776.38,No
+0813-CHURN,Male,0,Yes,No,47,Yes,No,Two year,No,Bank transfer,37.03,1745.01,No
+0814-CHURN,Female,0,Yes,No,61,Yes,Fiber optic,Two year,No,Mailed check,98.66,6017.04,No
+0815-CHURN,Male,0,Yes,No,39,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,20.75,815.68,Yes
+0816-CHURN,Female,0,No,Yes,21,No,DSL,Two year,Yes,Bank transfer,58.42,1217.95,No
+0817-CHURN,Male,0,No,No,5,Yes,Fiber optic,Month-to-month,Yes,Electronic check,32.43,163.09,Yes
+0818-CHURN,Male,0,Yes,No,5,Yes,DSL,One year,Yes,Electronic check,107.25,535.83,Yes
+0819-CHURN,Male,1,No,No,45,Yes,Fiber optic,Month-to-month,Yes,Electronic check,21.14,956.94,Yes
+0820-CHURN,Female,0,Yes,No,7,Yes,Fiber optic,Two year,Yes,Credit card,73.45,506.46,Yes
+0821-CHURN,Female,0,No,No,8,Yes,DSL,Two year,Yes,Credit card,93.25,753.77,No
+0822-CHURN,Male,0,Yes,No,32,Yes,DSL,Month-to-month,Yes,Mailed check,46.76,1492.6,No
+0823-CHURN,Male,0,Yes,No,62,Yes,No,Month-to-month,Yes,Mailed check,67.99,4220.08,No
+0824-CHURN,Male,0,No,No,71,Yes,No,Month-to-month,Yes,Bank transfer,50.39,3578.52,Yes
+0825-CHURN,Female,0,No,Yes,27,No,No,Month-to-month,Yes,Mailed check,30.77,835.29,No
+0826-CHURN,Male,0,No,No,59,No,DSL,One year,No,Bank transfer,46.3,2729.38,No
+0827-CHURN,Male,1,No,No,49,Yes,DSL,Month-to-month,Yes,Mailed check,84.49,4140.66,No
+0828-CHURN,Male,0,No,No,44,No,Fiber optic,Two year,Yes,Electronic check,52.59,2320.54,No
+0829-CHURN,Female,0,Yes,No,71,Yes,No,Two year,Yes,Credit card,60.88,4326.86,No
+0830-CHURN,Female,0,No,No,31,Yes,DSL,One year,No,Bank transfer,27.05,833.55,No
+0831-CHURN,Female,0,Yes,No,47,Yes,Fiber optic,Two year,No,Electronic check,30.93,1455.08,No
+0832-CHURN,Female,0,No,No,57,Yes,DSL,One year,Yes,Mailed check,59.36,3385.11,No
+0833-CHURN,Female,0,No,Yes,36,Yes,Fiber optic,Month-to-month,Yes,Mailed check,33.19,1197.2,Yes
+0834-CHURN,Male,0,Yes,No,57,Yes,DSL,Two year,No,Electronic check,113.67,6489.03,No
+0835-CHURN,Male,0,No,No,6,Yes,Fiber optic,Month-to-month,Yes,Credit card,29.82,170.47,Yes
+0836-CHURN,Female,0,No,Yes,55,Yes,DSL,Month-to-month,Yes,Bank transfer,52.0,2858.16,No
+0837-CHURN,Female,0,No,No,21,Yes,Fiber optic,Month-to-month,No,Electronic check,29.12,605.75,Yes
+0838-CHURN,Female,0,No,No,5,Yes,DSL,One year,No,Electronic check,114.02,579.27,No
+0839-CHURN,Female,0,Yes,No,68,Yes,No,One year,No,Credit card,50.19,3406.82,No
+0840-CHURN,Male,0,No,Yes,41,Yes,DSL,Two year,Yes,Credit card,54.69,2239.33,No
+0841-CHURN,Female,0,Yes,No,54,Yes,DSL,Two year,Yes,Credit card,85.91,4642.46,No
+0842-CHURN,Female,0,Yes,Yes,54,Yes,DSL,Two year,Yes,Mailed check,108.49,5865.99,Yes
+0843-CHURN,Male,0,No,No,17,Yes,Fiber optic,Month-to-month,No,Electronic check,31.74,546.92,No
+0844-CHURN,Female,0,No,No,31,Yes,DSL,One year,No,Bank transfer,77.65,2409.48,No
+0845-CHURN,Male,1,No,No,53,Yes,No,One year,Yes,Credit card,88.51,4695.7,No
+0846-CHURN,Male,1,Yes,No,48,Yes,Fiber optic,One year,Yes,Mailed check,69.37,3331.52,No
+0847-CHURN,Male,0,No,No,67,Yes,No,Two year,No,Credit card,47.03,3148.69,No
+0848-CHURN,Male,1,Yes,No,36,Yes,No,One year,Yes,Bank transfer,35.06,1257.92,No
+0849-CHURN,Male,0,No,No,34,No,DSL,Month-to-month,No,Mailed check,28.1,956.44,Yes
+0850-CHURN,Male,1,Yes,No,70,Yes,DSL,Month-to-month,Yes,Electronic check,55.45,3877.14,No
+0851-CHURN,Female,0,Yes,No,38,No,No,Two year,No,Electronic check,62.94,2390.37,No
+0852-CHURN,Male,0,Yes,No,11,Yes,DSL,Two year,Yes,Mailed check,69.21,756.83,No
+0853-CHURN,Male,0,No,No,5,Yes,No,Two year,Yes,Electronic check,113.42,569.65,No
+0854-CHURN,Female,0,Yes,No,34,Yes,Fiber optic,Month-to-month,No,Bank transfer,31.68,1079.82,Yes
+0855-CHURN,Male,1,Yes,No,27,Yes,DSL,One year,No,Credit card,81.6,2197.89,No
+0856-CHURN,Male,0,Yes,No,63,Yes,No,One year,Yes,Credit card,48.04,3020.9,No
+0857-CHURN,Female,0,No,No,55,Yes,Fiber optic,One year,No,Bank transfer,88.2,4855.1,No
+0858-CHURN,Female,0,No,No,31,Yes,Fiber optic,Two year,Yes,Credit card,24.58,767.42,Yes
+0859-CHURN,Female,0,No,No,34,No,Fiber optic,One year,No,Bank transfer,82.13,2783.33,No
+0860-CHURN,Male,0,Yes,No,15,No,No,Two year,Yes,Electronic check,113.53,1693.37,No
+0861-CHURN,Female,0,Yes,No,67,Yes,No,Month-to-month,No,Credit card,104.47,6994.08,No
+0862-CHURN,Female,0,Yes,No,32,No,DSL,Month-to-month,No,Electronic check,68.65,2202.63,Yes
+0863-CHURN,Female,0,Yes,No,32,Yes,No,Month-to-month,No,Credit card,84.03,2681.58,No
+0864-CHURN,Female,0,Yes,Yes,54,Yes,No,Two year,No,Mailed check,28.06,1517.0,No
+0865-CHURN,Female,0,No,No,3,Yes,Fiber optic,Month-to-month,Yes,Credit card,56.16,167.07,Yes
+0866-CHURN,Female,0,No,Yes,69,Yes,Fiber optic,Month-to-month,No,Credit card,113.65,7847.1,No
+0867-CHURN,Female,0,Yes,No,30,Yes,Fiber optic,Two year,Yes,Bank transfer,51.74,1558.39,No
+0868-CHURN,Male,0,Yes,No,63,Yes,DSL,Month-to-month,Yes,Credit card,70.84,4469.71,No
+0869-CHURN,Male,0,No,No,44,Yes,DSL,One year,No,Credit card,105.64,4643.52,No
+0870-CHURN,Female,0,No,No,31,Yes,No,One year,Yes,Electronic check,110.62,3427.73,Yes
+0871-CHURN,Male,0,Yes,No,16,Yes,Fiber optic,Month-to-month,Yes,Credit card,68.02,1090.84,Yes
+0872-CHURN,Male,0,No,No,38,Yes,Fiber optic,Two year,No,Bank transfer,70.75,2690.8,No
+0873-CHURN,Male,1,Yes,No,48,Yes,Fiber optic,One year,Yes,Bank transfer,111.21,5342.48,No
+0874-CHURN,Male,0,No,Yes,54,Yes,Fiber optic,Month-to-month,No,Electronic check,49.68,2676.47,No
+0875-CHURN,Female,0,Yes,No,21,Yes,No,Two year,No,Bank transfer,81.38,1717.54,No
+0876-CHURN,Female,0,No,No,52,No,No,Two year,No,Mailed check,26.25,1358.05,No
+0877-CHURN,Female,0,Yes,Yes,67,Yes,Fiber optic,One year,Yes,Bank transfer,115.17,7721.14,No
+0878-CHURN,Female,0,Yes,No,28,Yes,No,Month-to-month,Yes,Credit card,105.96,2963.35,No
+0879-CHURN,Male,1,No,No,61,Yes,No,Month-to-month,Yes,Credit card,56.23,3427.74,No
+0880-CHURN,Female,0,No,No,28,No,No,One year,No,Credit card,74.55,2087.2,No
+0881-CHURN,Male,0,No,No,23,Yes,Fiber optic,One year,No,Bank transfer,91.35,2095.33,No
+0882-CHURN,Male,0,Yes,No,2,Yes,Fiber optic,Two year,Yes,Bank transfer,51.35,110.92,No
+0883-CHURN,Male,0,Yes,No,62,Yes,No,Two year,Yes,Electronic check,115.61,7174.29,No
+0884-CHURN,Female,0,No,No,61,Yes,No,Two year,No,Electronic check,55.45,3384.71,No
+0885-CHURN,Male,0,Yes,Yes,16,Yes,No,Two year,Yes,Electronic check,104.29,1664.19,No
+0886-CHURN,Male,0,No,No,22,No,No,Two year,No,Electronic check,112.55,2474.16,No
+0887-CHURN,Male,1,Yes,No,11,Yes,DSL,One year,No,Credit card,35.8,398.74,No
+0888-CHURN,Male,0,No,Yes,60,Yes,No,Month-to-month,Yes,Credit card,27.32,1647.56,Yes
+0889-CHURN,Male,0,Yes,No,2,Yes,Fiber optic,One year,Yes,Mailed check,49.28,102.18,No
+0890-CHURN,Male,0,Yes,No,49,Yes,DSL,One year,Yes,Bank transfer,59.9,2941.81,No
+0891-CHURN,Male,0,No,Yes,57,Yes,Fiber optic,One year,Yes,Bank transfer,95.74,5457.64,No
+0892-CHURN,Male,1,No,Yes,27,No,Fiber optic,One year,No,Bank transfer,39.24,1063.47,No
+0893-CHURN,Female,1,Yes,Yes,60,Yes,DSL,Two year,No,Mailed check,66.02,3960.54,No
+0894-CHURN,Female,0,Yes,No,14,Yes,DSL,Month-to-month,Yes,Bank transfer,52.17,738.44,Yes
+0895-CHURN,Female,0,No,No,3,Yes,No,One year,Yes,Credit card,91.6,274.27,No
+0896-CHURN,Female,0,No,No,39,Yes,DSL,Two year,Yes,Credit card,95.91,3749.57,No
+0897-CHURN,Male,0,Yes,No,68,Yes,No,Month-to-month,Yes,Bank transfer,97.36,6611.56,Yes
+0898-CHURN,Male,0,No,No,59,Yes,DSL,Month-to-month,No,Bank transfer,49.25,2899.44,No
+0899-CHURN,Female,1,Yes,Yes,72,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,28.49,2052.28,Yes
+0900-CHURN,Male,0,No,No,32,Yes,DSL,One year,Yes,Mailed check,58.49,1868.22,No
+0901-CHURN,Female,0,Yes,No,4,Yes,No,Month-to-month,No,Bank transfer,54.73,218.95,Yes
+0902-CHURN,Female,0,Yes,Yes,25,Yes,Fiber optic,One year,Yes,Credit card,83.9,2096.01,Yes
+0903-CHURN,Female,0,No,Yes,54,Yes,Fiber optic,Two year,Yes,Electronic check,64.99,3501.11,No
+0904-CHURN,Male,0,No,No,2,Yes,DSL,Two year,Yes,Credit card,19.66,42.4,No
+0905-CHURN,Female,0,No,No,15,Yes,Fiber optic,Two year,Yes,Credit card,89.7,1352.38,No
+0906-CHURN,Male,0,No,No,50,Yes,DSL,Month-to-month,Yes,Bank transfer,38.26,1919.26,No
+0907-CHURN,Female,0,No,Yes,16,Yes,Fiber optic,One year,Yes,Bank transfer,43.73,696.43,Yes
+0908-CHURN,Male,0,Yes,Yes,54,Yes,Fiber optic,One year,No,Electronic check,54.22,2918.61,No
+0909-CHURN,Male,0,Yes,Yes,19,Yes,Fiber optic,One year,Yes,Credit card,87.4,1655.48,No
+0910-CHURN,Female,1,No,No,19,Yes,No,Two year,No,Electronic check,56.69,1086.72,Yes
+0911-CHURN,Female,0,Yes,Yes,33,Yes,No,Month-to-month,No,Credit card,115.02,3801.53,No
+0912-CHURN,Female,0,Yes,No,7,Yes,Fiber optic,Month-to-month,No,Credit card,45.98,325.64,Yes
+0913-CHURN,Male,0,Yes,No,35,Yes,DSL,Month-to-month,No,Mailed check,45.98,1608.55,No
+0914-CHURN,Female,1,Yes,Yes,42,Yes,No,One year,No,Credit card,77.29,3248.88,No
+0915-CHURN,Female,0,Yes,No,41,Yes,Fiber optic,Month-to-month,Yes,Credit card,39.56,1625.91,No
+0916-CHURN,Female,0,Yes,No,72,No,DSL,Month-to-month,No,Bank transfer,48.9,3525.82,No
+0917-CHURN,Female,1,Yes,No,56,Yes,DSL,One year,Yes,Credit card,117.47,6575.83,No
+0918-CHURN,Female,0,Yes,Yes,28,Yes,DSL,Two year,Yes,Mailed check,95.19,2675.01,No
+0919-CHURN,Female,0,Yes,No,36,Yes,Fiber optic,Two year,Yes,Bank transfer,68.73,2474.93,Yes
+0920-CHURN,Female,0,No,Yes,58,Yes,DSL,One year,Yes,Bank transfer,94.79,5500.94,No
+0921-CHURN,Male,0,No,No,53,Yes,DSL,Two year,Yes,Electronic check,78.46,4163.02,No
+0922-CHURN,Female,0,Yes,No,61,Yes,Fiber optic,Month-to-month,No,Credit card,73.71,4503.58,No
+0923-CHURN,Male,0,Yes,Yes,26,Yes,Fiber optic,Month-to-month,No,Mailed check,76.26,1981.94,Yes
+0924-CHURN,Female,0,Yes,No,65,Yes,No,One year,No,Mailed check,42.99,2798.79,No
+0925-CHURN,Male,0,No,No,61,Yes,DSL,One year,No,Electronic check,90.08,5497.02,No
+0926-CHURN,Male,0,Yes,Yes,51,Yes,No,Month-to-month,Yes,Credit card,61.36,3121.84,Yes
+0927-CHURN,Female,0,Yes,No,47,Yes,Fiber optic,Month-to-month,No,Credit card,39.51,1848.91,No
+0928-CHURN,Male,0,No,No,34,Yes,No,One year,Yes,Credit card,88.46,3009.0,No
+0929-CHURN,Male,1,No,Yes,48,Yes,No,One year,Yes,Mailed check,75.26,3608.57,No
+0930-CHURN,Female,1,Yes,Yes,38,Yes,Fiber optic,Two year,Yes,Mailed check,76.82,2912.13,Yes
+0931-CHURN,Female,0,No,No,22,No,No,Month-to-month,Yes,Bank transfer,70.83,1555.82,No
+0932-CHURN,Male,0,No,Yes,49,Yes,DSL,One year,Yes,Mailed check,40.93,2001.14,No
+0933-CHURN,Male,0,No,No,2,Yes,No,Month-to-month,No,Bank transfer,84.92,167.81,Yes
+0934-CHURN,Female,0,No,No,69,Yes,No,Month-to-month,No,Electronic check,63.16,4358.5,Yes
+0935-CHURN,Male,0,Yes,Yes,59,Yes,No,One year,Yes,Electronic check,92.81,5480.46,No
+0936-CHURN,Male,0,Yes,Yes,32,Yes,No,One year,Yes,Electronic check,50.39,1615.16,Yes
+0937-CHURN,Male,0,No,Yes,70,Yes,No,One year,Yes,Electronic check,76.67,5374.12,No
+0938-CHURN,Female,0,Yes,No,59,No,Fiber optic,One year,No,Credit card,81.61,4811.56,No
+0939-CHURN,Female,0,No,Yes,69,Yes,Fiber optic,Two year,Yes,Bank transfer,81.09,5587.44,No
+0940-CHURN,Male,0,No,No,66,Yes,DSL,Month-to-month,Yes,Credit card,85.8,5654.69,No
+0941-CHURN,Female,0,Yes,Yes,14,Yes,DSL,One year,Yes,Bank transfer,95.14,1331.4,No
+0942-CHURN,Male,0,Yes,No,25,Yes,DSL,Month-to-month,No,Mailed check,51.07,1277.08,Yes
+0943-CHURN,Female,0,No,Yes,34,Yes,Fiber optic,One year,Yes,Bank transfer,91.17,3106.36,Yes
+0944-CHURN,Female,0,No,No,1,Yes,Fiber optic,Month-to-month,No,Bank transfer,83.08,83.08,Yes
+0945-CHURN,Female,1,Yes,Yes,33,Yes,Fiber optic,Month-to-month,Yes,Credit card,51.07,1686.51,Yes
+0946-CHURN,Male,0,No,No,14,Yes,DSL,One year,No,Credit card,113.7,1600.73,No
+0947-CHURN,Female,0,No,Yes,49,Yes,DSL,Two year,Yes,Bank transfer,62.31,3048.87,No
+0948-CHURN,Male,0,No,No,20,Yes,No,Month-to-month,Yes,Credit card,43.02,861.85,No
+0949-CHURN,Female,0,No,No,18,Yes,DSL,Two year,No,Bank transfer,114.22,2053.18,No
+0950-CHURN,Male,0,No,Yes,47,Yes,No,Two year,Yes,Electronic check,32.53,1531.75,No
+0951-CHURN,Female,0,Yes,No,66,Yes,No,One year,No,Bank transfer,97.51,6435.5,No
+0952-CHURN,Male,0,Yes,No,15,Yes,No,Month-to-month,Yes,Credit card,79.5,1202.36,No
+0953-CHURN,Female,0,No,No,20,Yes,DSL,Month-to-month,No,Bank transfer,63.9,1283.62,No
+0954-CHURN,Female,0,No,No,1,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,61.21,61.21,Yes
+0955-CHURN,Female,0,Yes,No,46,Yes,No,Two year,Yes,Mailed check,39.11,1792.69,Yes
+0956-CHURN,Male,0,No,No,42,Yes,DSL,Two year,Yes,Bank transfer,34.83,1472.68,No
+0957-CHURN,Male,0,Yes,Yes,57,Yes,Fiber optic,Month-to-month,Yes,Mailed check,56.54,3221.72,Yes
+0958-CHURN,Male,0,Yes,Yes,23,Yes,No,Two year,Yes,Mailed check,94.16,2158.09,No
+0959-CHURN,Female,0,No,No,27,No,No,One year,Yes,Electronic check,112.99,3041.05,No
+0960-CHURN,Female,0,Yes,No,40,Yes,Fiber optic,Two year,Yes,Electronic check,83.54,3347.8,No
+0961-CHURN,Male,0,No,No,42,Yes,DSL,Month-to-month,Yes,Mailed check,70.36,2947.92,No
+0962-CHURN,Male,1,Yes,No,38,Yes,Fiber optic,Month-to-month,Yes,Mailed check,112.13,4270.25,No
+0963-CHURN,Male,0,Yes,No,4,Yes,Fiber optic,One year,No,Bank transfer,80.69,313.33,Yes
+0964-CHURN,Male,0,Yes,No,19,No,DSL,Two year,Yes,Mailed check,34.32,642.38,No
+0965-CHURN,Male,0,Yes,Yes,61,Yes,Fiber optic,Two year,Yes,Electronic check,49.64,3027.43,No
+0966-CHURN,Male,0,No,No,13,Yes,No,Two year,Yes,Mailed check,69.97,915.72,Yes
+0967-CHURN,Male,0,No,Yes,14,Yes,Fiber optic,Month-to-month,No,Bank transfer,51.36,728.52,Yes
+0968-CHURN,Female,0,Yes,No,48,Yes,No,Two year,No,Electronic check,93.29,4483.92,No
+0969-CHURN,Male,0,Yes,Yes,5,Yes,DSL,Month-to-month,Yes,Electronic check,75.71,378.23,Yes
+0970-CHURN,Female,0,Yes,No,34,Yes,DSL,Two year,Yes,Bank transfer,52.23,1783.67,No
+0971-CHURN,Female,0,No,No,44,Yes,Fiber optic,Month-to-month,No,Credit card,82.73,3649.42,Yes
+0972-CHURN,Male,0,Yes,Yes,38,Yes,Fiber optic,One year,Yes,Electronic check,115.13,4384.37,No
+0973-CHURN,Male,1,Yes,No,26,Yes,Fiber optic,Two year,No,Mailed check,74.79,1945.15,Yes
+0974-CHURN,Female,0,Yes,No,13,Yes,No,Two year,No,Mailed check,102.82,1341.68,Yes
+0975-CHURN,Female,0,No,Yes,52,Yes,No,One year,No,Credit card,50.69,2640.31,No
+0976-CHURN,Male,0,No,Yes,9,Yes,Fiber optic,Month-to-month,Yes,Mailed check,94.96,860.78,No
+0977-CHURN,Male,0,Yes,No,51,Yes,DSL,One year,Yes,Bank transfer,32.54,1657.57,No
+0978-CHURN,Male,0,Yes,No,42,Yes,DSL,Two year,Yes,Electronic check,95.67,4020.11,No
+0979-CHURN,Female,0,Yes,No,59,Yes,No,One year,No,Electronic check,56.65,3350.17,No
+0980-CHURN,Female,0,Yes,No,63,Yes,DSL,Two year,Yes,Bank transfer,42.63,2692.69,No
+0981-CHURN,Female,0,Yes,No,36,Yes,No,One year,No,Bank transfer,60.46,2183.29,No
+0982-CHURN,Male,1,No,Yes,64,Yes,Fiber optic,Two year,Yes,Credit card,74.57,4779.23,No
+0983-CHURN,Female,1,Yes,No,13,Yes,DSL,Month-to-month,Yes,Credit card,100.03,1304.76,Yes
+0984-CHURN,Female,0,Yes,No,56,Yes,DSL,Month-to-month,Yes,Electronic check,81.55,4563.38,No
+0985-CHURN,Female,0,No,No,33,Yes,No,One year,Yes,Mailed check,46.16,1528.95,No
+0986-CHURN,Female,0,Yes,Yes,71,Yes,No,One year,No,Mailed check,102.97,7318.0,No
+0987-CHURN,Male,0,No,Yes,12,Yes,Fiber optic,Two year,Yes,Mailed check,94.16,1123.96,No
+0988-CHURN,Female,0,No,No,21,No,Fiber optic,Month-to-month,Yes,Bank transfer,109.38,2300.98,Yes
+0989-CHURN,Male,0,Yes,Yes,12,Yes,No,One year,No,Mailed check,90.09,1081.74,No
+0990-CHURN,Female,1,No,No,11,Yes,DSL,One year,No,Mailed check,73.3,809.65,No
+0991-CHURN,Female,0,Yes,Yes,29,Yes,DSL,Month-to-month,Yes,Mailed check,114.96,3340.99,Yes
+0992-CHURN,Female,0,Yes,No,67,Yes,No,Two year,No,Credit card,93.18,6247.19,No
+0993-CHURN,Female,0,No,No,31,Yes,Fiber optic,Month-to-month,No,Mailed check,50.67,1577.32,Yes
+0994-CHURN,Male,1,No,No,14,Yes,No,Month-to-month,No,Mailed check,65.03,911.91,Yes
+0995-CHURN,Female,0,No,Yes,22,Yes,Fiber optic,Two year,No,Bank transfer,66.16,1459.65,Yes
+0996-CHURN,Female,1,No,No,4,Yes,Fiber optic,One year,No,Mailed check,117.12,462.78,No
+0997-CHURN,Female,0,No,Yes,70,No,No,One year,No,Electronic check,89.71,6276.87,No
+0998-CHURN,Male,0,No,No,25,Yes,No,Month-to-month,No,Electronic check,83.44,2085.9,Yes
+0999-CHURN,Male,1,No,No,50,Yes,Fiber optic,Two year,Yes,Bank transfer,36.8,1836.22,No
+1000-CHURN,Female,0,No,Yes,34,Yes,DSL,One year,No,Electronic check,52.47,1789.02,No
