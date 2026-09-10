@@ -1,7 +1,7 @@
 """Module de nettoyage, transformation et préparation des features."""
 
-from typing import Dict, List, Tuple
-import numpy as np
+from typing import List, Tuple
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
@@ -33,7 +33,7 @@ def encode_features(
     categorical_cols: List[str],
     numerical_cols: List[str],
 ) -> pd.DataFrame:
-    """Encode les variables catégorielles et normalise les variables numériques (Min-Max).
+    """Encode les variables catégorielles et normalise les valeurs numériques.
 
     Args:
         df: DataFrame contenant les colonnes nettoyées.
@@ -93,4 +93,6 @@ def split_data(
     X = df.drop(columns=[target_col])
     y = df[target_col]
 
-    return train_test_split(X, y, test_size=test_size, random_state=random_state, stratify=y)
+    return train_test_split(
+        X, y, test_size=test_size, random_state=random_state, stratify=y
+    )

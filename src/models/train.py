@@ -1,20 +1,23 @@
 import argparse
-import os
 import pickle
 import sys
 from pathlib import Path
 from typing import Any, Dict, Tuple
 
-# Permet l'exécution directe sous Windows/Linux sans configuration de variable d'environnement
+# Permet l'exécution directe sous Windows/Linux sans variable d'environnement
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
-import pandas as pd
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
-import yaml
+import pandas as pd  # noqa: E402
+import yaml  # noqa: E402
+from sklearn.linear_model import LogisticRegression  # noqa: E402
+from sklearn.metrics import accuracy_score, f1_score, roc_auc_score  # noqa: E402
 
-from src.data.load_data import load_raw_data
-from src.features.preprocess import clean_raw_dataframe, encode_features, split_data
+from src.data.load_data import load_raw_data  # noqa: E402
+from src.features.preprocess import (  # noqa: E402
+    clean_raw_dataframe,
+    encode_features,
+    split_data,
+)
 
 
 def load_yaml_config(config_path: str = "configs/config.yaml") -> Dict[str, Any]:
@@ -54,7 +57,9 @@ def train_logistic_regression(
     return model
 
 
-def evaluate_model(model: Any, X_test: pd.DataFrame, y_test: pd.Series) -> Dict[str, float]:
+def evaluate_model(
+    model: Any, X_test: pd.DataFrame, y_test: pd.Series
+) -> Dict[str, float]:
     """Calcule les métriques clés de performance sur le jeu de test.
 
     Args:
@@ -66,7 +71,9 @@ def evaluate_model(model: Any, X_test: pd.DataFrame, y_test: pd.Series) -> Dict[
         Dict[str, float]: Dictionnaire contenant accuracy, f1_score et roc_auc.
     """
     preds = model.predict(X_test)
-    probs = model.predict_proba(X_test)[:, 1] if hasattr(model, "predict_proba") else preds
+    probs = (
+        model.predict_proba(X_test)[:, 1] if hasattr(model, "predict_proba") else preds
+    )
 
     metrics = {
         "accuracy": float(accuracy_score(y_test, preds)),
@@ -90,14 +97,18 @@ def save_model_artifact(model: Any, output_path: str) -> None:
     print(f"Modèle sauvegardé avec succès dans : {path.resolve()}")
 
 
-def run_pipeline(config_path: str = "configs/config.yaml") -> Tuple[LogisticRegression, Dict[str, float]]:
-    """Exécute l'intégralité du pipeline MLOps : Ingestion -> Features -> Train -> Eval -> Save.
+def run_pipeline(
+    config_path: str = "configs/config.yaml",
+) -> Tuple[LogisticRegression, Dict[str, float]]:
+    """Exécute l'intégralité du pipeline MLOps complet.
+
+    Étapes : Ingestion -> Features -> Train -> Eval -> Save.
 
     Args:
         config_path: Chemin vers le fichier de configuration.
 
     Returns:
-        Tuple[LogisticRegression, Dict[str, float]]: Modèle entraîné et métriques obtenues.
+        Tuple[LogisticRegression, Dict[str, float]]: Modèle et métriques.
     """
     config = load_yaml_config(config_path)
 
@@ -148,7 +159,14 @@ def run_pipeline(config_path: str = "configs/config.yaml") -> Tuple[LogisticRegr
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Pipeline MLOps d'entraînement du modèle Churn.")
-    parser.add_argument("--config", type=str, default="configs/config.yaml", help="Chemin vers le fichier de configuration YAML.")
+    parser = argparse.ArgumentParser(
+        description="Pipeline MLOps d'entraînement du modèle Churn."
+    )
+    parser.add_argument(
+        "--config",
+        type=str,
+        default="configs/config.yaml",
+        help="Chemin vers le fichier de configuration YAML.",
+    )
     args = parser.parse_args()
     run_pipeline(args.config)

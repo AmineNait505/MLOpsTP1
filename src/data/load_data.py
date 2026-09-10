@@ -1,8 +1,8 @@
 """Module de chargement et de validation des données brutes."""
 
-import os
 from pathlib import Path
 from typing import Union
+
 import pandas as pd
 
 
@@ -21,7 +21,9 @@ def load_raw_data(file_path: Union[str, Path]) -> pd.DataFrame:
     """
     path = Path(file_path)
     if not path.exists():
-        raise FileNotFoundError(f"Le fichier de données est introuvable à l'adresse : {path.resolve()}")
+        raise FileNotFoundError(
+            f"Le fichier de données est introuvable à l'adresse : {path.resolve()}"
+        )
 
     df = pd.read_csv(path)
     if df.empty:
