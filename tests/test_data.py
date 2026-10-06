@@ -20,3 +20,12 @@ def test_load_raw_data_not_found():
     """Vérifie la levée d'exception pour un fichier inexistant."""
     with pytest.raises(FileNotFoundError):
         load_raw_data("fichier_totalement_inexistant_9999.csv")
+
+
+def test_load_raw_data_empty_file(tmp_path):
+    """Vérifie qu'un fichier vide déclenche une erreur explicite."""
+    empty_csv = tmp_path / "empty.csv"
+    empty_csv.write_text("", encoding="utf-8")
+
+    with pytest.raises((ValueError, pd.errors.EmptyDataError)):
+        load_raw_data(empty_csv)
